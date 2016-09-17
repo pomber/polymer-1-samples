@@ -1,0 +1,34 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<!--
+`rpr-master-detail`
+
+
+@demo demo.html 
+-->
+
+<dom-module id="rpr-master-detail">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'rpr-master-detail',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'rpr-master-detail',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
