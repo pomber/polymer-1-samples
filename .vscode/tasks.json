@@ -1,0 +1,7 @@
+{
+    "version": "0.1.0",
+    "command": "polymer",
+    "isShellCommand": true,
+    "args": ["serve"],
+    "showOutput": "silent"
+}
