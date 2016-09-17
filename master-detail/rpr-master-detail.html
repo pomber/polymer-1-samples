@@ -1,12 +1,14 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-listbox/paper-listbox.html">
+<link rel="import" href="../bower_components/paper-item/paper-item.html">
 
 <dom-module id="rpr-master-detail">
   <template>
-    <template is="dom-repeat" items="[[items]]">
-      <ul>
-        <li>[[item.name]]</li>
-      </ul>
-    </template>
+    <paper-listbox>
+      <template is="dom-repeat" items="[[items]]">        
+        <paper-item>[[item.name]]</paper-item>
+      </template>
+    </paper-listbox>
   </template>
 
   <script>
