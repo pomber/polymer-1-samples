@@ -1,20 +1,12 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 
-<!--
-`rpr-master-detail`
-
-
-@demo demo.html 
--->
-
 <dom-module id="rpr-master-detail">
   <template>
-    <style>
-      :host {
-        display: block;
-      }
-    </style>
-    <h2>Hello [[prop1]]</h2>
+    <template is="dom-repeat" items="[[items]]">
+      <ul>
+        <li>[[item.name]]</li>
+      </ul>
+    </template>
   </template>
 
   <script>
@@ -23,11 +15,20 @@
       is: 'rpr-master-detail',
 
       properties: {
-        prop1: {
-          type: String,
-          value: 'rpr-master-detail',
-        },
+        items: Array,
       },
+
+      ready: function() {
+        this.items = [
+          { name: "Foo", type: "One" },
+          { name: "Bar", type: "Two" },
+          { name: "Baz", type: "One" },
+          { name: "Qux", type: "Ten" },
+          { name: "Rot", type: "Two" },
+          { name: "Jar", type: "One" },
+          { name: "Cos", type: "One" },
+        ];
+      }
 
     });
   </script>
