@@ -1,0 +1,45 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-fab/paper-fab.html">
+
+<dom-module id="rpr-speed-dial">
+  <style>    
+    .main-fab {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+    }
+
+    .dropdown-content {
+      position: absolute;
+      bottom: 70px;
+      right: 10px;
+    }
+
+    .dropdown-content paper-fab {
+        margin: 8px;
+    }
+  </style>
+  <template>
+    <paper-fab icon="add" class="dropdown-trigger main-fab"></paper-fab>
+    <div class="dropdown-content">
+        <paper-fab mini icon="star-border"></paper-fab>
+        <paper-fab mini icon="star-half"></paper-fab>
+        <paper-fab mini icon="star"></paper-fab>
+    </div>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'rpr-speed-dial',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'World',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
