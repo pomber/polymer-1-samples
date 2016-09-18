@@ -7,20 +7,20 @@
 
 
 <dom-module id="master-page">
-  <template>
-    <style>
-      paper-fab {
-        position: fixed;
-        bottom: 100px;
-        right: 10px;
-      }
-    </style>
-    <p>Master</p>
-    <paper-fab id="trigger" on-tap="changePage"></paper-fab>    
+    <template>
+        <style>
+            paper-fab {
+                position: fixed;
+                bottom: 100px;
+                right: 10px;
+            }
+        </style>
+        <p>Master</p>
+        <paper-fab id="trigger" on-tap="changePage"></paper-fab>
 
-  </template>
+    </template>
 
-  <script>
+    <script>
     Polymer({
 
       is: 'master-page',
@@ -44,14 +44,13 @@
             }
           }
         },
-      },
-
-      sharedElements: {
-        value: function() {
-          return {
-            'hero': this.$.trigger
-          }
-        }
+        sharedElements: {
+            value: function() {
+            return {
+                'hero': this.$.trigger
+            }
+            }
+        },
       },
 
       changePage: function() {
