@@ -20,12 +20,14 @@
     }
   </style>
   <template>
-    <paper-fab icon="add" class="dropdown-trigger main-fab"></paper-fab>
-    <div class="dropdown-content">
-        <paper-fab mini icon="star-border"></paper-fab>
-        <paper-fab mini icon="star-half"></paper-fab>
-        <paper-fab mini icon="star"></paper-fab>
-    </div>
+    <paper-fab icon="add" class="dropdown-trigger main-fab" on-tap="toggle"></paper-fab>
+    <template is="dom-if" if="[[active]]">
+        <div class="dropdown-content">
+            <paper-fab mini icon="star-border"></paper-fab>
+            <paper-fab mini icon="star-half"></paper-fab>
+            <paper-fab mini icon="star"></paper-fab>
+        </div>
+    </template>
   </template>
 
   <script>
@@ -34,11 +36,12 @@
       is: 'rpr-speed-dial',
 
       properties: {
-        prop1: {
-          type: String,
-          value: 'World',
-        },
+        active: Boolean,
       },
+
+      toggle: function () {
+          this.active = !this.active;
+      }
 
     });
   </script>
