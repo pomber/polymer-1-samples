@@ -1,11 +1,15 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
-<link rel="import" href="rpr-speed-dial.html">
+<link rel="import" href="../bower_components/neon-animation/neon-animated-pages.html">
+<link rel="import" href="master-page.html">
+<link rel="import" href="detail-page.html">
 
 
 <dom-module id="rpr-fab-transition">
   <template>
-    <rpr-speed-dial>
-    </rpr-speed-dial>
+    <neon-animated-pages selected="[[selected]]">
+      <master-page on-change-page="changePage"></master-page>
+      <detail-page on-change-page="changePage"></detail-page>
+    </neon-animated-pages>
   </template>
 
   <script>
@@ -14,10 +18,15 @@
       is: 'rpr-fab-transition',
 
       properties: {
-        prop1: {
-          type: String,
-          value: 'World',
-        },
+        selected: {
+          type: Number,
+          value: 0
+        }
+      },
+
+      changePage: function() {
+        this.selected = this.selected ? 0 : 1;
+
       },
 
     });

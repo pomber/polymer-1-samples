@@ -1,0 +1,64 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-fab/paper-fab.html">
+<link rel="import" href="../bower_components/neon-animation/neon-shared-element-animatable-behavior.html">
+<link rel="import" href="../bower_components/neon-animation/animations/hero-animation.html">
+<link rel="import" href="../bower_components/neon-animation/animations/fade-out-animation.html">
+<link rel="import" href="../bower_components/neon-animation/animations/fade-in-animation.html">
+
+
+<dom-module id="detail-page">
+  <template>
+    <style>
+      paper-fab {
+        position: absolute;
+        top: 100px;
+        left: 10px;
+      }
+    </style>
+
+    <p>Detail</p>
+    <paper-fab id="trigger" on-tap="changePage"></paper-fab>    
+
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'detail-page',
+
+      behaviors: [Polymer.NeonSharedElementAnimatableBehavior],
+
+      properties: {
+        animationConfig: {
+          value: function() {
+            return {
+              'entry': {
+                name: 'hero-animation',
+                id: 'hero',
+                toPage: this
+              },
+            //   'exit': {
+            //     name: 'hero-animation',
+            //     id: 'hero',
+            //     fromPage: this
+            //   }
+            }
+          }
+        },
+      },
+
+      sharedElements: {
+        value: function() {
+          return {
+            'hero': this.$.trigger
+          }
+        }
+      },
+
+      changePage: function() {
+        this.fire('change-page');
+      }
+
+    });
+  </script>
+</dom-module>
