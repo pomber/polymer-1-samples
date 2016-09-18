@@ -1,33 +1,36 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/paper-fab/paper-fab.html">
+<link rel="import" href="../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
 
 <dom-module id="rpr-speed-dial">
-  <style>    
-    .main-fab {
+  <style include="iron-flex iron-flex-alignment iron-flex-reverse"> 
+    .container {        
+      @apply(--layout-vertical-reverse);
       position: absolute;
       bottom: 10px;
       right: 10px;
     }
 
-    .dropdown-content {
-      position: absolute;
-      bottom: 70px;
-      right: 10px;
+    .dropdown-content {      
+      @apply(--layout-vertical-reverse);
     }
 
     .dropdown-content paper-fab {
-        margin: 8px;
+      margin: 0px 8px 10px 8px;
     }
   </style>
   <template>
-    <paper-fab icon="add" class="dropdown-trigger main-fab" on-tap="toggle"></paper-fab>
-    <template is="dom-if" if="[[active]]">
-        <div class="dropdown-content">
-            <paper-fab mini icon="star-border"></paper-fab>
-            <paper-fab mini icon="star-half"></paper-fab>
-            <paper-fab mini icon="star"></paper-fab>
-        </div>
-    </template>
+    <div class="container">        
+        <paper-fab icon="add" class="dropdown-trigger main-fab" on-tap="toggle"></paper-fab>
+        <template is="dom-if" if="[[active]]">
+            <div class="dropdown-content">
+                <paper-fab mini icon="star-border"></paper-fab>
+                <paper-fab mini icon="star-half"></paper-fab>
+                <paper-fab mini icon="star"></paper-fab>
+            </div>
+        </template>
+    </div>
   </template>
 
   <script>
@@ -38,6 +41,8 @@
       properties: {
         active: Boolean,
       },
+
+      ready: function () { this.active = true; },
 
       toggle: function () {
           this.active = !this.active;
