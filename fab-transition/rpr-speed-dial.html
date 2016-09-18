@@ -5,6 +5,7 @@
 <link rel="import" href="../bower_components/neon-animation/neon-animation-runner-behavior.html">
 <link rel="import" href="../bower_components/neon-animation/animations/scale-up-animation.html">
 <link rel="import" href="../bower_components/neon-animation/animations/fade-out-animation.html">
+<link rel="import" href="../bower_components/neon-animation/animations/cascaded-animation.html">
 
 
 <dom-module id="rpr-speed-dial">
@@ -28,9 +29,9 @@
     <div class="container">        
         <paper-fab icon="add" class="dropdown-trigger main-fab" on-tap="toggle"></paper-fab>
         <div class="dropdown-content" id="menu" hidden>
-          <paper-fab mini icon="star-border"></paper-fab>
-          <paper-fab mini icon="star-half"></paper-fab>
-          <paper-fab mini icon="star"></paper-fab>
+          <paper-fab mini icon="star-border" class="item"></paper-fab>
+          <paper-fab mini icon="star-half" class="item"></paper-fab>
+          <paper-fab mini icon="star" class="item"></paper-fab>
         </div>
     </div>
   </template>
@@ -48,11 +49,13 @@
         active: Boolean,
         animationConfig: {
           value: function() {
+            var items = Polymer.dom(this.root).querySelectorAll('.item');
+            var array = Array.prototype.slice.call(items);
             return {
               'entry': {
-                // provided by neon-animation/animations/scale-up-animation.html
-                name: 'scale-up-animation',
-                node: this.$.menu
+                name: 'cascaded-animation',
+                animation: 'scale-up-animation',
+                nodes: array
               },
               'exit': {
                 name: 'fade-out-animation',
