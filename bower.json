@@ -6,6 +6,7 @@
     "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0",
     "iron-elements": "PolymerElements/iron-elements#^1.0.10",
     "paper-elements": "PolymerElements/paper-elements#^1.0.7",
-    "neon-elements": "PolymerElements/neon-elements#^1.0.0"
+    "neon-elements": "PolymerElements/neon-elements#^1.0.0",
+    "paper-fab-speed-dial": "paper-speed-dial#^0.5.0"
   }
 }
