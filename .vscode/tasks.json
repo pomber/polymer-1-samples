@@ -2,6 +2,6 @@
     "version": "0.1.0",
     "command": "polymer",
     "isShellCommand": true,
-    "args": ["serve"],
+    "args": ["serve", "-p", "9090"],
     "showOutput": "silent"
 }
