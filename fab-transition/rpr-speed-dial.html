@@ -4,7 +4,7 @@
 <link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
 <link rel="import" href="../bower_components/neon-animation/neon-animation-runner-behavior.html">
 <link rel="import" href="../bower_components/neon-animation/animations/scale-up-animation.html">
-<link rel="import" href="../bower_components/neon-animation/animations/fade-out-animation.html">
+<link rel="import" href="../bower_components/neon-animation/animations/scale-down-animation.html">
 <link rel="import" href="../bower_components/neon-animation/animations/cascaded-animation.html">
 
 
@@ -51,6 +51,7 @@
           value: function() {
             var items = Polymer.dom(this.root).querySelectorAll('.item');
             var array = Array.prototype.slice.call(items);
+            var reversed = Array.prototype.slice.call(items).reverse();
             return {
               'entry': {
                 name: 'cascaded-animation',
@@ -58,8 +59,9 @@
                 nodes: array
               },
               'exit': {
-                name: 'fade-out-animation',
-                node: this.$.menu
+                name: 'cascaded-animation',
+                animation: 'scale-down-animation',
+                nodes: reversed
               }
             }
           }
