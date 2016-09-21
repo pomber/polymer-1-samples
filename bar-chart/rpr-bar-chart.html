@@ -1,8 +1,9 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
 
 <dom-module id="rpr-bar-chart">
   <template>
-  <style>
+  <style include="iron-flex iron-flex-alignment">
     .chart {
       width: 100%;
       height: 140px;
@@ -10,28 +11,17 @@
       border-bottom: 1px solid #d6d9dc;
     }
 
-    .lane {
-      width: 13px;
-      height: 100%;
-      background-color: lavender;
-      display: inline-block;
-      margin-right: 3px;
-      position: relative;
-    }
-
     .bar {
       background-color: green;
-      position: absolute;
-      width: 13px;
+      width: 15px;
+      margin: 0 2px;
       bottom: 0;
     }
     
   </style>
-    <div class="chart">
+    <div class="chart layout horizontal end end-justified">
       <template is="dom-repeat" items="[[values]]">
-        <div class="lane">
-          <div class="bar" style$="height: {{item.x}}%"></div>
-        </div>
+        <div class="bar" style$="height: {{item.x}}%"></div>
       </template>
     </div>
   </template>
