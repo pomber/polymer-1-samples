@@ -1,8 +1,29 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/app-layout/app-header-layout/app-header-layout.html">
+<link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
+<link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
 
 <dom-module id="rpr-dashboard">
   <template>
-    <h2>Hello [[prop1]]</h2>
+
+    <style>
+      app-header {
+        background-color: lightblue;
+      }
+    </style>
+
+    <app-header-layout fullbleed>
+      <app-header>
+        <app-toolbar>
+          <div main-title>Dashboard</div>
+        </app-toolbar>
+      </app-header>
+
+      Hello [[value]]
+
+    </app-header-layout>
+
+
   </template>
 
   <script>
