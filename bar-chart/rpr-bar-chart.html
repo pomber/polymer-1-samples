@@ -20,7 +20,7 @@
     
   </style>
     <div class="chart layout horizontal end end-justified">
-      <template is="dom-repeat" items="[[values]]">
+      <template is="dom-repeat" items="[[data]]">
         <div class="bar" style$="height: {{item.x}}%"></div>
       </template>
     </div>
@@ -32,21 +32,7 @@
       is: 'rpr-bar-chart',
 
       properties: {
-        values: {
-          type: Array,
-          value: [
-            { x: 10 }, 
-            { x: 12 }, 
-            { x: 45 }, 
-            { x: 34 }, 
-            { x: 66 }, 
-            { x: 89 }, 
-            { x: 90 }, 
-            { x: 43 }, 
-            { x: 12 }, 
-            { x: 34 }
-          ],
-        },
+        data: Array
       },
 
     });
