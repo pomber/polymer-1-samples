@@ -1,0 +1,23 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="rpr-bar-chart.html">
+
+<dom-module id="chart-client">
+  <template>
+    <rpr-bar-chart></rpr-bar-chart>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'chart-client',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'World',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
