@@ -4,6 +4,7 @@
 <link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
 <link rel="import" href="../bower_components/paper-tabs/paper-tabs.html">
 <link rel="import" href="../bower_components/paper-tabs/paper-tab.html">
+<link rel="import" href="../bower_components/paper-card/paper-card.html">
 
 <dom-module id="rpr-dashboard">
   <template>
@@ -13,8 +14,16 @@
         background-color: lightblue;
       }
 
-      paper-tabs {
+      paper-tabs, paper-card{
         width: 100%;
+      }
+
+      .content {
+        padding: 5px;
+      }
+
+      .card-content {
+        height: 150px;
       }
     </style>
 
@@ -40,7 +49,36 @@
         </app-toolbar>
       </app-header>
 
-      Hello [[value]]
+      <div class="content">
+        <paper-card heading="Card Title">
+          <div class="card-content">Some content</div>
+        </paper-card>
+      </div>
+
+      <div class="content">
+        <paper-card heading="Card Title">
+          <div class="card-content">Some content</div>
+        </paper-card>
+      </div>
+
+      <div class="content">
+        <paper-card heading="Card Title">
+          <div class="card-content">Some content</div>
+        </paper-card>
+      </div>
+
+      <div class="content">
+        <paper-card heading="Card Title">
+          <div class="card-content">Some content</div>
+        </paper-card>
+      </div>
+
+      <div class="content">
+        <paper-card heading="Card Title">
+          <div class="card-content">Some content</div>
+        </paper-card>
+      </div>
+
 
     </app-header-layout>
 
