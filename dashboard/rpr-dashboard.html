@@ -2,6 +2,8 @@
 <link rel="import" href="../bower_components/app-layout/app-header-layout/app-header-layout.html">
 <link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
 <link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
+<link rel="import" href="../bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="../bower_components/paper-tabs/paper-tab.html">
 
 <dom-module id="rpr-dashboard">
   <template>
@@ -10,12 +12,31 @@
       app-header {
         background-color: lightblue;
       }
+
+      paper-tabs {
+        width: 100%;
+      }
     </style>
 
     <app-header-layout fullbleed>
       <app-header>
         <app-toolbar>
           <div main-title>Dashboard</div>
+        </app-toolbar>
+        <div>Plot</div>
+        <div>Plot</div>
+        <app-toolbar>
+          <paper-tabs selected="0" scrollable>
+            <paper-tab>TAB 1</paper-tab>
+            <paper-tab>TAB 2</paper-tab>
+            <paper-tab>TAB 3</paper-tab>
+            <paper-tab>TAB 4</paper-tab>
+            <paper-tab>TAB 5</paper-tab>
+            <paper-tab>TAB 6</paper-tab>
+            <paper-tab>TAB 7</paper-tab>
+            <paper-tab>TAB 8</paper-tab>
+            <paper-tab>TAB 9</paper-tab>
+          </paper-tabs>
         </app-toolbar>
       </app-header>
 
