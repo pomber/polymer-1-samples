@@ -27,35 +27,12 @@
     }
     
   </style>
-
     <div class="chart">
-      <div class="lane">
-        <div class="bar" style="height: 0%"></div>
-      </div>
-      <div class="lane">
-        <div class="bar" style="height: 0%"></div>
-      </div>
-      <div class="lane">
-        <div class="bar" style="height: 22.22222%"></div>
-      </div>
-      <div class="lane">
-        <div class="bar" style="height: 22.22222%"></div>
-      </div>
-      <div class="lane">
-        <div class="bar" style="height: 33.33334%"></div>
-      </div>
-      <div class="lane">
-        <div class="bar" style="height: 0%"></div>
-      </div>
-      <div class="lane">
-        <div class="bar" style="height: 45%"></div>
-      </div>
-      <div class="lane">
-        <div class="bar" style="height: 76%"></div>
-      </div>
-      <div class="lane">
-        <div class="bar" style="height: 50%"></div>
-      </div>
+      <template is="dom-repeat" items="[[values]]">
+        <div class="lane">
+          <div class="bar" style$="height: {{item.x}}%"></div>
+        </div>
+      </template>
     </div>
   </template>
 
@@ -65,9 +42,20 @@
       is: 'rpr-bar-chart',
 
       properties: {
-        prop1: {
-          type: String,
-          value: 'World',
+        values: {
+          type: Array,
+          value: [
+            { x: 10 }, 
+            { x: 12 }, 
+            { x: 45 }, 
+            { x: 34 }, 
+            { x: 66 }, 
+            { x: 89 }, 
+            { x: 90 }, 
+            { x: 43 }, 
+            { x: 12 }, 
+            { x: 34 }
+          ],
         },
       },
 
