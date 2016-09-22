@@ -21,7 +21,7 @@
   </style>
     <div class="chart layout horizontal end end-justified">
       <template is="dom-repeat" items="[[data]]">
-        <div class="bar" style$="height: {{item.x}}%"></div>
+        <div class="bar" style$="height: {{_getPercentage(item)}}%"></div>
       </template>
     </div>
   </template>
@@ -32,8 +32,13 @@
       is: 'rpr-bar-chart',
 
       properties: {
-        data: Array
+        data: Array,
+        top: Number
       },
+
+      _getPercentage: function(item) {
+        return 100 * item.x / this.top;
+      }
 
     });
   </script>
