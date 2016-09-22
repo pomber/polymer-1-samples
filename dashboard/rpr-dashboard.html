@@ -6,6 +6,7 @@
 <link rel="import" href="../bower_components/paper-tabs/paper-tabs.html">
 <link rel="import" href="../bower_components/paper-tabs/paper-tab.html">
 <link rel="import" href="../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../bar-chart/chart-client.html">
 
 <dom-module id="rpr-dashboard">
   <template>
@@ -33,12 +34,8 @@
         <app-toolbar>
           <div main-title>Dashboard</div>
         </app-toolbar>
-        <div>Plot</div>
-        <div>Jab</div>
-        <div>Fre</div>
-        <div>Mec</div>
-        <div>Ape</div>
-        <div>Mue</div>
+        <chart-client>
+        </chart-client>
         <app-toolbar sticky>
           <paper-tabs selected="0" scrollable>
             <paper-tab>TAB 1</paper-tab>
