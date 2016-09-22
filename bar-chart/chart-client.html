@@ -3,6 +3,13 @@
 
 <dom-module id="chart-client">
   <template>
+    <style>
+      :host {
+        --rpr-bar-chart-bar-color: var(--paper-green-200);
+      }
+    </style>
+
+
     <rpr-bar-chart data="[[data]]" top="10000">
 
     </rpr-bar-chart>
