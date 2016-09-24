@@ -1,8 +1,13 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../bower_components/app-storage/app-localstorage/app-localstorage-document.html">
 
 <dom-module id="local-storage-sample">
   <template>
-    <h2>Hello [[prop1]]</h2>
+    <h2>Hello [[value]]</h2>
+    <paper-input value="{{value}}"></paper-input>
+    <app-localstorage-document key="lss-key" data="{{value}}">
+    </app-localstorage-document>
   </template>
 
   <script>
