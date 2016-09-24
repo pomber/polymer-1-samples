@@ -8,11 +8,12 @@
       Track Time
     </paper-button>
     <app-localstorage-document log
-      key="lss-list2" data="{{list}}">
+      key="lss-list3" data="{{list}}">
     </app-localstorage-document>
+
     <ul>
       <template is="dom-repeat" items="[[list]]">
-        <li>[[item]]</li>        
+        <paper-button on-tap="edit">[[item.time]]</paper-button>        
       </template>
     </ul>
 
@@ -33,9 +34,22 @@
       },
 
       track: function() {
-        var date = new Date().toISOString();        
-        console.log("Track: ", date);
-        this.push("list", date);
+        var item = this._now();
+        console.log("Track: ", item);
+        this.push("list", item);
+      },
+
+      edit: function(e) {
+        var item = e.model.item;  
+        var index = this.list.indexOf(item);
+        //item.time = this._now().time;
+        this.set(["list", index, "time"], this._now().time);
+      },
+
+      _now: function() {
+        return {
+          time: new Date().toISOString()
+        };
       }
 
     });
