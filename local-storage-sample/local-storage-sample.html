@@ -1,13 +1,14 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
-<link rel="import" href="../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
 <link rel="import" href="../bower_components/app-storage/app-localstorage/app-localstorage-document.html">
 
 <dom-module id="local-storage-sample">
   <template>
-    <h2>Hello [[value]]</h2>
-    <paper-input value="{{value}}"></paper-input>
-    <app-localstorage-document key="lss-key" data="{{value}}">
+    <paper-button value="{{value}}" on-tap="track">Track</paper-button>
+    <app-localstorage-document log
+      key="lss-list1" data="{{list}}">
     </app-localstorage-document>
+
   </template>
 
   <script>
@@ -16,11 +17,19 @@
       is: 'local-storage-sample',
 
       properties: {
-        prop1: {
-          type: String,
-          value: 'World',
+        list: {
+          type: Array,
+          value: function() {
+            return [];
+          },
         },
       },
+
+      track: function() {
+        var date = new Date();
+        console.log("Track: ", date);
+        this.push("list", date);
+      }
 
     });
   </script>
