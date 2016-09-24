@@ -4,10 +4,17 @@
 
 <dom-module id="local-storage-sample">
   <template>
-    <paper-button value="{{value}}" on-tap="track">Track</paper-button>
+    <paper-button value="{{value}}" on-tap="track" raised>
+      Track Time
+    </paper-button>
     <app-localstorage-document log
-      key="lss-list1" data="{{list}}">
+      key="lss-list2" data="{{list}}">
     </app-localstorage-document>
+    <ul>
+      <template is="dom-repeat" items="[[list]]">
+        <li>[[item]]</li>        
+      </template>
+    </ul>
 
   </template>
 
@@ -26,7 +33,7 @@
       },
 
       track: function() {
-        var date = new Date();
+        var date = new Date().toISOString();        
         console.log("Track: ", date);
         this.push("list", date);
       }
