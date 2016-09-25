@@ -1,8 +1,41 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-styles/color.html">
 
 <dom-module id="sky-animation">
   <template>
-    <h2>Hello [[prop1]]</h2>
+
+    <style>
+      :host {
+        display: block;
+        height: 500px;
+        width: 100%;
+        background-color: var(--paper-blue-500); 
+        position: relative;
+      }
+
+      .sun {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: var(--paper-yellow-500);
+
+        position: absolute;
+        z-index: 20;
+        top: 80px;
+        left: 40%;
+      }
+    </style>
+
+    <div class="wrap">
+      <div class="sun"></div>
+      
+      <div class="clouds">
+        <div class="cloud-1"></div>
+        <div class="cloud-2"></div>
+        <div class="cloud-3"></div>
+      </div>
+    </div>
+
   </template>
 
   <script>
