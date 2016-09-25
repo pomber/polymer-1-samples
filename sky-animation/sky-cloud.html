@@ -6,53 +6,50 @@
 
     <style>
       :host {
+        --sky-cloud-size-private: var(--sky-cloud-size, 100px);
       }
 
       .cloud {
-        width: 280px;
-        min-height: 150px;
-        /*margin: 50px auto;*/
+        width: calc(var(--sky-cloud-size-private) * 2);
+        height: var(--sky-cloud-size-private);
         position: relative;
-        z-index: 98;
       }
 
       .cloud:after {
         position: absolute;
         content: '';
-        height: 25px;
-        width: 178px;
-        bottom: -5px;
-        left: 45px;
-        background-color: #fff;
-        z-index: 99;
+        height: 17%;
+        width: 56%;
+        bottom: -3%;
+        left: 16%;
+        background-color: white;
       }
 
       .cloud > * {
         position: absolute;
-        background-color: #fff;
         border-radius: 50%;
-        z-index: 99;
+        background-color: white;
       }
 
       .cloud-1 {
-        top: 55px;
+        top: 37%;
         left: 0;
-        width: 100px;
-        height: 100px;
+        width: 33%;
+        height: 66%;
       }
 
       .cloud-2 {
         top: 0px;
-        left: 60px;
-        width: 150px;
-        height: 150px;
+        left: 20%;
+        width: 50%;
+        height: 100%;
       }
 
       .cloud-3 {
-        top: 35px;
-        left: 160px;
-        width: 120px;
-        height: 120px;
+        top: 23%;
+        left: 50%;
+        width: 40%;
+        height: 80%;
       }
     </style>
 
@@ -67,14 +64,7 @@
   <script>
     Polymer({
 
-      is: 'sky-cloud',
-
-      properties: {
-        prop1: {
-          type: String,
-          value: 'World',
-        },
-      },
+      is: 'sky-cloud'
 
     });
   </script>
