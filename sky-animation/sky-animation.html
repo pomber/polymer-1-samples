@@ -1,5 +1,7 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/paper-styles/color.html">
+<link rel="import" href="sky-sun.html">
+<link rel="import" href="sky-cloud.html">
 
 <dom-module id="sky-animation">
   <template>
@@ -13,75 +15,23 @@
         position: relative;
       }
 
-      .sun {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        background-color: var(--paper-yellow-500);
-
+      sky-sun {
         position: absolute;
+        top: 100px;
+        left: 50px;
         z-index: 20;
-        top: 80px;
-        left: 25%;
       }
 
-      .cloud {
-        width: 280px;
-        min-height: 150px;
-        margin: 50px auto;
-        position: relative;
-        z-index: 98;
-      }
-
-      .cloud:after {
+      sky-cloud {
         position: absolute;
-        content: '';
-        height: 25px;
-        width: 178px;
-        bottom: -5px;
-        left: 45px;
-        background-color: #fff;
-        z-index: 99;
-      }
-
-      .cloud > * {
-        position: absolute;
-        background-color: #fff;
-        border-radius: 50%;
-        z-index: 99;
-      }
-
-      .cloud-1 {
-        top: 55px;
-        left: 0;
-        width: 100px;
-        height: 100px;
-      }
-
-      .cloud-2 {
-        top: 0px;
-        left: 60px;
-        width: 150px;
-        height: 150px;
-      }
-
-      .cloud-3 {
-        top: 35px;
-        left: 160px;
-        width: 120px;
-        height: 120px;
+        top: 150px;
+        left: 100px;
+        z-index: 40;
       }
     </style>
 
-    <div class="wrap">
-      <div class="sun"></div>
-      
-      <div class="cloud">
-        <div class="cloud-1"></div>
-        <div class="cloud-2"></div>
-        <div class="cloud-3"></div>
-      </div>
-    </div>
+    <sky-sun></sky-sun>
+    <sky-cloud></sky-cloud>
 
   </template>
 

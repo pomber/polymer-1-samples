@@ -1,0 +1,32 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-styles/color.html">
+
+<dom-module id="sky-sun">
+  <template>
+
+    <style>
+      :host {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: var(--paper-yellow-500);
+      }
+    </style>
+
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'sky-sun',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'World',
+        },
+      },
+
+    });
+  </script>
+</dom-module>

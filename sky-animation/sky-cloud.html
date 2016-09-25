@@ -1,0 +1,81 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-styles/color.html">
+
+<dom-module id="sky-cloud">
+  <template>
+
+    <style>
+      :host {
+      }
+
+      .cloud {
+        width: 280px;
+        min-height: 150px;
+        /*margin: 50px auto;*/
+        position: relative;
+        z-index: 98;
+      }
+
+      .cloud:after {
+        position: absolute;
+        content: '';
+        height: 25px;
+        width: 178px;
+        bottom: -5px;
+        left: 45px;
+        background-color: #fff;
+        z-index: 99;
+      }
+
+      .cloud > * {
+        position: absolute;
+        background-color: #fff;
+        border-radius: 50%;
+        z-index: 99;
+      }
+
+      .cloud-1 {
+        top: 55px;
+        left: 0;
+        width: 100px;
+        height: 100px;
+      }
+
+      .cloud-2 {
+        top: 0px;
+        left: 60px;
+        width: 150px;
+        height: 150px;
+      }
+
+      .cloud-3 {
+        top: 35px;
+        left: 160px;
+        width: 120px;
+        height: 120px;
+      }
+    </style>
+
+    <div class="cloud">
+      <div class="cloud-1"></div>
+      <div class="cloud-2"></div>
+      <div class="cloud-3"></div>
+    </div>
+
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'sky-cloud',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'World',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
