@@ -17,23 +17,31 @@
 
       sky-sun {
         position: absolute;
-        top: 100px;
-        left: 50px;
+        top: 10%;
+        left: 5%;
         z-index: 20;
 
         --sky-sun-size: 150px;
       }
 
-      sky-cloud {
+      sky-cloud.one {
         position: absolute;
-        top: 150px;
-        left: 100px;
+        top: 15%;
+        left: 55%;
+        z-index: 40;
+      }
+
+      sky-cloud.two {
+        position: absolute;
+        top: 45%;
+        left: 25%;
         z-index: 40;
       }
     </style>
 
     <sky-sun></sky-sun>
-    <sky-cloud></sky-cloud>
+    <sky-cloud class="one"></sky-cloud>
+    <sky-cloud class="two"></sky-cloud>
 
   </template>
 
