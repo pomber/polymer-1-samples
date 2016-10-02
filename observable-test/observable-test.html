@@ -1,0 +1,85 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">>
+
+<dom-module id="observable-test">
+    <template>
+        See console output...
+    </template>
+  <script>
+    Polymer({
+
+      is: 'observable-test',
+
+      properties: {
+        list: {
+          type: Array,
+          value: ["foo"],
+        },
+        prop: {
+          type: Number,
+          value: 10,
+        }
+      },
+
+      observers: [
+        'justProp(prop)',
+        'justList(list)',
+        'justSplices(list.splices)',
+        'justWildcard(list.*)',
+        'propAndList(prop, list)',
+        'propAndSplices(prop, list.splices)',
+        'propAndWildcard(prop, list.*)',
+      ],
+
+      fix: function() {
+        console.log('fix');
+      },
+
+      justProp: function() {
+        console.log('justProp');
+      },
+
+      justList: function() {
+        console.log('justList');
+      },
+
+      justSplices: function() {
+        console.log('justSplices');
+      },
+
+      justWildcard: function() {
+        console.log('justWildcard');
+      },
+
+      propAndList: function() {
+        console.log('propAndList');
+      },
+
+      propAndSplices: function() {
+        console.log('propAndSplices');
+      },
+
+      propAndWildcard: function() {
+        console.log('propAndWildcard');
+      },
+
+      ready: function() {
+        this.async(function () {
+          console.log("-- Changing prop: --");
+          this.prop = 20;
+        }, 500);        
+        this.async(function () {
+          console.log("-- Adding item to list: --");
+          this.push("list", {foo: "bar"});
+        }, 1000);
+        this.async(function () {
+          console.log("-- Changing prop again: --");
+          this.prop = 30;
+        }, 1500); 
+        this.async(function () {
+          console.log("-- Changing list item prop: --");
+          this.set(["list", 1, "foo"], "baz");
+        }, 2000); 
+      },
+    });
+  </script>
+</dom-module>
