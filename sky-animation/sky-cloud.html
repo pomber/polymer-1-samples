@@ -1,5 +1,8 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/paper-styles/color.html">
+<link rel="import" href="../bower_components/neon-animation/neon-animation-runner-behavior.html">
+<link rel="import" href="../bower_components/neon-animation/animations/fade-out-animation.html">
+<link rel="import" href="../bower_components/neon-animation/animations/fade-in-animation.html">
 
 <dom-module id="sky-cloud">
   <template>
@@ -53,7 +56,7 @@
       }
     </style>
 
-    <div class="cloud">
+    <div class="cloud" on-tap="hey">
       <div class="cloud-1"></div>
       <div class="cloud-2"></div>
       <div class="cloud-3"></div>
@@ -64,7 +67,41 @@
   <script>
     Polymer({
 
-      is: 'sky-cloud'
+      is: 'sky-cloud',
+
+      properties: {
+        animationConfig: {
+          value: function() {
+            return {
+              'entry': {
+                // provided by neon-animation/animations/scale-up-animation.html
+                name: 'fade-in-animation',
+                node: this
+              },
+              'exit': {
+                // provided by neon-animation-animations/fade-out-animation.html
+                name: 'fade-out-animation',
+                node: this
+              }
+            }
+          }
+        }
+      },
+
+      behaviors: [
+        Polymer.NeonAnimationRunnerBehavior
+      ],
+
+      listeners: {
+        'neon-animation-finish': '_onNeonAnimationFinish'
+      },
+
+      hey: function() {
+        this.playAnimation('exit');
+      },
+
+      _onNeonAnimationFinish: function() {
+      }
 
     });
   </script>
