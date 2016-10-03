@@ -74,14 +74,15 @@
           value: function() {
             return {
               'entry': {
-                // provided by neon-animation/animations/scale-up-animation.html
                 name: 'fade-in-animation',
                 node: this
               },
               'exit': {
-                // provided by neon-animation-animations/fade-out-animation.html
                 name: 'fade-out-animation',
-                node: this
+                node: this,
+                timing: {
+                  iterations: 3,
+                }
               }
             }
           }
