@@ -1,0 +1,25 @@
+{
+  "name": "polymer-1-samples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.17.0"
+  },
+  "scripts": {
+    "dev": "polymer serve & npm run watch",
+    "test": "polymer test",
+    "watch": "browser-sync start --proxy localhost:8080 --files '*/*.html, src/*.js' "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pomber/polymer-1-samples.git"
+  },
+  "author": "pomber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pomber/polymer-1-samples/issues"
+  },
+  "homepage": "https://github.com/pomber/polymer-1-samples#readme"
+}

@@ -1,7 +1,7 @@
 {
     "version": "0.1.0",
-    "command": "polymer",
+    "command": "npm",
     "isShellCommand": true,
-    "args": ["serve", "-p", "9090"],
+    "args": ["run", "dev"],
     "showOutput": "silent"
 }
