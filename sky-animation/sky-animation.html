@@ -1,5 +1,6 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/paper-styles/color.html">
+<link rel="import" href="../bower_components/neon-animation/neon-animation-runner-behavior.html">
 <link rel="import" href="sky-sun.html">
 <link rel="import" href="sky-cloud.html">
 
@@ -52,11 +53,19 @@
 
       is: 'sky-animation',
 
+      behaviors: [
+        Polymer.NeonAnimationRunnerBehavior
+      ],
+
       properties: {
         prop1: {
           type: String,
           value: 'World',
         },
+      },
+
+      ready: function () {
+        
       },
 
     });
