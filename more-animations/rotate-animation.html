@@ -17,14 +17,13 @@
 
       this._effect = new KeyframeEffect(node, [
         {'transform': 'none'},
-        // {'transform': 'rotate(-45deg)'},
         {'transform': 'rotate(-180deg)'}
       ], this.timingFromConfig(config));
 
       if (config.transformOrigin) {
         this.setPrefixedProperty(node, 'transformOrigin', config.transformOrigin);
       } else {
-        this.setPrefixedProperty(node, 'transformOrigin', '50vw 50%');
+        this.setPrefixedProperty(node, 'transformOrigin', '50vw center');
       }
 
       return this._effect;

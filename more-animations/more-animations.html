@@ -35,7 +35,7 @@
                 name: 'rotate-animation',
                 node: this.$.anim,
                 timing: {
-                  duration: 3000,
+                  duration: 1000,
                   iterations: 2,
                   direction: "alternate"
                 }
@@ -48,6 +48,10 @@
       behaviors: [
         Polymer.NeonAnimationRunnerBehavior
       ],
+
+      ready: function() {
+        this.playAnimation('entry');
+      },
 
       hey: function() {
         this.playAnimation('entry');
