@@ -3,6 +3,7 @@
 <link rel="import" href="../bower_components/neon-animation/neon-animation-runner-behavior.html">
 <link rel="import" href="../bower_components/neon-animation/animations/fade-out-animation.html">
 <link rel="import" href="../bower_components/neon-animation/animations/fade-in-animation.html">
+<link rel="import" href="../more-animations/enter-from-right-animation.html">
 
 <dom-module id="sky-cloud">
   <template>
@@ -74,8 +75,11 @@
           value: function() {
             return {
               'entry': {
-                name: 'fade-in-animation',
-                node: this
+                name: 'enter-from-right-animation',
+                node: this,
+                timing: {
+                  duration: 2000,
+                }
               },
               'exit': {
                 name: 'fade-out-animation',
@@ -98,7 +102,7 @@
       },
 
       hey: function() {
-        this.playAnimation('exit');
+        this.playAnimation('entry');
       },
 
       _onNeonAnimationFinish: function() {
