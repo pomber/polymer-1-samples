@@ -3,6 +3,8 @@
 <link rel="import" href="../bower_components/neon-animation/animations/slide-left-animation.html">
 <link rel="import" href="rotate-animation.html">
 <link rel="import" href="enter-from-right-animation.html">
+<link rel="import" href="enter-from-left-animation.html">
+<link rel="import" href="enter-from-back-animation.html">
 
 <dom-module id="more-animations">
   <template>
@@ -14,14 +16,6 @@
 
         margin-top: 100px;
         margin-left: 150px;
-
-        /*position: absolute;
-        top: 100px;
-        left: 0px;*/
-
-        /*transform-box: border-box;*/
-        /*transform-box: fill-box;*/
-        transform-box: view-box;
       }
     </style>
     <h2 id="anim" on-tap="hey">Hello</h2>
@@ -44,7 +38,7 @@
           value: function() {
             return {
               'entry': {
-                name: 'enter-from-right-animation',
+                name: 'enter-from-back-animation',
                 node: this.$.anim,
                 timing: {
                   duration: 2000,
