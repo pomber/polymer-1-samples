@@ -67,13 +67,14 @@
                 name: 'enter-from-right-animation',
                 node: this.$$("sky-cloud.one"),
                 timing: {
-                  duration: 1000,
+                  duration: 1500,
                 }
               },{
                 name: 'enter-from-left-animation',
                 node: this.$$("sky-cloud.two"),
                 timing: {
-                  duration: 1000,
+                  duration: 1250,
+                  delay: 250,
                 }
               }]              
             }
@@ -83,7 +84,9 @@
 
 
       ready: function () {
-        this.playAnimation('entry');        
+        this.async(function () {
+          this.playAnimation('entry');
+        });        
       },
 
     });
