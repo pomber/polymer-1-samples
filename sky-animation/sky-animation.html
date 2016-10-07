@@ -3,6 +3,7 @@
 <link rel="import" href="../bower_components/neon-animation/neon-animation-runner-behavior.html">
 <link rel="import" href="../more-animations/enter-from-right-animation.html">
 <link rel="import" href="../more-animations/enter-from-left-animation.html">
+<link rel="import" href="../more-animations/rotate-animation.html">
 <link rel="import" href="sky-sun.html">
 <link rel="import" href="sky-cloud.html">
 
@@ -20,17 +21,17 @@
 
       sky-sun {
         position: absolute;
-        top: 10%;
-        left: 5%;
+        top: 7%;
+        left: 19%;
         z-index: 20;
 
-        --sky-sun-size: 150px;
+        --sky-sun-size: 120px;
       }
 
       sky-cloud.one {
         position: absolute;
-        top: 20%;
-        left: 60%;
+        top: 31%;
+        left: 4%;
         z-index: 40;
         --sky-cloud-size: 60px;
         opacity: 0.7;
@@ -38,8 +39,8 @@
 
       sky-cloud.two {
         position: absolute;
-        top: 45%;
-        left: 25%;
+        top: 21%;
+        left: 48%;
         z-index: 60;
       }
     </style>
@@ -67,14 +68,22 @@
                 name: 'enter-from-right-animation',
                 node: this.$$("sky-cloud.one"),
                 timing: {
-                  duration: 1500,
+                  duration: 1250,
+                  delay: 250,
                 }
               },{
                 name: 'enter-from-left-animation',
                 node: this.$$("sky-cloud.two"),
                 timing: {
-                  duration: 1250,
-                  delay: 250,
+                  duration: 1000,
+                  delay: 500,
+                }
+              },{
+                name: 'rotate-animation',
+                node: this.$$("sky-sun"),
+                timing: {
+                  duration: 1200,
+                  delay: -100,
                 }
               }]              
             }
