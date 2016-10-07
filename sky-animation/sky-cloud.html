@@ -58,7 +58,7 @@
       }
     </style>
 
-    <div class="cloud" on-tap="hey">
+    <div class="cloud">
       <div class="cloud-1"></div>
       <div class="cloud-2"></div>
       <div class="cloud-3"></div>
@@ -70,44 +70,6 @@
     Polymer({
 
       is: 'sky-cloud',
-
-      properties: {
-        animationConfig: {
-          value: function() {
-            return {
-              'entry': {
-                name: 'enter-from-left-animation',
-                node: this,
-                timing: {
-                  duration: 2000,
-                }
-              },
-              'exit': {
-                name: 'fade-out-animation',
-                node: this,
-                timing: {
-                  iterations: 3,
-                }
-              }
-            }
-          }
-        }
-      },
-
-      behaviors: [
-        Polymer.NeonAnimationRunnerBehavior
-      ],
-
-      listeners: {
-        'neon-animation-finish': '_onNeonAnimationFinish'
-      },
-
-      hey: function() {
-        this.playAnimation('entry');
-      },
-
-      _onNeonAnimationFinish: function() {
-      }
 
     });
   </script>
