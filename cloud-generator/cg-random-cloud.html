@@ -5,6 +5,7 @@
   <template>
 
     <cg-cloud coords="[[coords]]"></cg-cloud>
+    <pre>[[code]]</pre>
 
   </template>
 
@@ -19,10 +20,47 @@
           value: function() {
             return this.generateCoords();
           },
+          code: String
         }
       },
 
+      _getCode: function() {
+        return JSON.stringify(this.coords);
+      },
+
       generateCoords: function() {
+        var coords = [];
+
+        var d0 = getRandom(10, 85);
+        var r0 = d0/2; 
+        var first = {
+          x: 0,
+          d: d0,
+          y: 100 - d0,
+        };
+
+        coords.push(first);
+
+        var x1 = getRandom(first.x + r0, first.x + d0);
+        var mind1 = first.x + d0 - x1;
+        var maxd1 = first.x + r0;
+        var d1 = getRandom(mind1, maxd1);
+        var r1 = d1/2;
+        var dx = x1 - first.x;
+        var s = Math.sqrt(r0*r0 - ((dx-r0)*(dx-r0)));        
+        var miny1 = Math.min(0, first.y + r0 - s - r1);
+        var maxy1 = 100;
+        var y1 = getRandom(miny1, maxy1);
+
+        coords.push({x:x1, y:y1, d:d1});
+
+        console.log();
+        this.code = JSON.stringify(coords, null, ' ');
+
+        return coords;
+      },
+
+      generateCoordsOld: function() {
         var parts = 6;
         var xs = [];   
 
