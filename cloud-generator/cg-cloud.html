@@ -40,7 +40,7 @@
 
       .right.part {  
         top: 20px;
-        left: 100px;
+        left: 120px;
         width: 80px;
         height: 80px;
           
@@ -54,12 +54,37 @@
       <div class="right part"></div>
     </div>
 
+    <div class="container">
+      <template is="dom-repeat" items="[[coords]]">
+        <div class$="part [[_getClass(index)]]"></div>
+      </template>
+    </div>
+
   </template>
 
   <script>
     Polymer({
 
       is: 'cg-cloud',
+
+      properties: {
+        coords: {
+          type: Array,
+          value: function () {
+            return [
+              {x: 0, y: 37, r: 63},
+              {x: 20, y: 0, r: 100},
+              {x: 60, y: 20, r: 80},
+            ]
+          },
+        }
+      },
+
+      _getClass: function(index) {
+        if (index == 0) return "left";        
+        if (index == this.coords.length - 1) return "right";
+        return "center";
+      },
 
     });
   </script>
