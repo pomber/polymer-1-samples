@@ -22,41 +22,23 @@
       }
 
       .left.part {
-        top: 37px;
-        left: 0;
-        
-        width: 63px;
-        height: 63px;
         border-radius: 50% 50% 0 50%;
       }
 
       .center.part {
-        border-radius: 50% / 50px 50px 0 0;         
-        top: 0px;
-        left: 40px;
-        width: 100px;
-        height: 100px;
+        border-radius: 50% / 50px 50px 0 0;
       }
 
-      .right.part {  
-        top: 20px;
-        left: 120px;
-        width: 80px;
-        height: 80px;
-          
+      .right.part {            
         border-radius: 50% 50% 50% 0;
       }
     </style>
 
     <div class="container">
-      <div class="left part"></div>
-      <div class="center part"></div>
-      <div class="right part"></div>
-    </div>
-
-    <div class="container">
       <template is="dom-repeat" items="[[coords]]">
-        <div class$="part [[_getClass(index)]]"></div>
+        <div 
+          class$="part [[_getClass(index)]]" 
+          style$="[[_getStyle(item)]]"></div>
       </template>
     </div>
 
@@ -72,9 +54,9 @@
           type: Array,
           value: function () {
             return [
-              {x: 0, y: 37, r: 63},
-              {x: 20, y: 0, r: 100},
-              {x: 60, y: 20, r: 80},
+              {x: 0, y: 37, d: 63},
+              {x: 20, y: 0, d: 100},
+              {x: 60, y: 20, d: 80},
             ]
           },
         }
@@ -85,6 +67,22 @@
         if (index == this.coords.length - 1) return "right";
         return "center";
       },
+
+      _getStyle: function(item) {
+        var top = item.y;
+        var left = item.x * 2;
+        var width = item.d;
+        var height = 100 - top;
+
+        var style = "";
+
+        style += "top:" + top + "px;";
+        style += "left:" + left + "px;";
+        style += "width: " + width + "px;";
+        style += "height: " + height + "px;";
+
+        return style;
+      }
 
     });
   </script>
