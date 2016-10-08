@@ -31,33 +31,38 @@
       generateCoords: function() {
         var coords = [];
 
-        var d0 = getRandom(10, 85);
-        var r0 = d0/2; 
-        var first = {
+        var d = getRandom(15, 85);
+        coords.push({
           x: 0,
-          d: d0,
-          r: d0/2,
-          y: 100 - d0,
-        };
+          d: d,
+          r: d/2,
+          y: 100 - d,
+        });
 
-        coords.push(first);
+        var attempts = 10;
 
-        for (var i = 0; i < 1; i++) {
+        while (attempts && coords.length < 4) {
+          var i = coords.length - 1;
           var p = coords[i];
           var c = {};
-          c.xmin = p.x + p.r;
-          c.xmax = p.x + p.d;
-          c.x = getRandom(c.xmin, c.xmax);
-          c.xd = c.x - p.x;
-          c.dmin = p.x + p.d - c.x;
-          c.dmax = 100;
-          c.d = getRandom(c.dmin, c.dmax);
-          c.r = c.d / 2;
-          c.s = Math.sqrt(sq(p.r)-sq(c.xd-p.r));
-          c.ymin = Math.max(p.y + p.r - c.s - c.r, 0);
-          c.ymax = 100;
-          c.y = getRandom(c.ymin, c.ymax);
-          coords.push(c); 
+          try {
+            c.xmin = p.x + p.r;
+            c.xmax = p.x + p.d;
+            c.x = getRandom(c.xmin, c.xmax);
+            c.xd = c.x - p.x;
+            c.dmin = p.x + p.d - c.x;
+            c.dmax = p.y;
+            c.d = getRandom(c.dmin, c.dmax);
+            c.r = c.d / 2;
+            c.s = Math.sqrt(sq(p.r)-sq(c.xd-p.r));
+            c.ymin = Math.max(p.y + p.r - c.s - c.r, 0);
+            c.m = Math.sqrt(sq(c.r)-sq(c.x+c.r-p.x-p.d));          
+            c.ymax = Math.min(p.y+p.r+c.m-c.r, 100-c.d);
+            c.y = getRandom(c.ymin, c.ymax);
+            coords.push(c);
+          } catch (e) {
+            attempts--;            
+          }           
         }
 
         this.code = JSON.stringify(coords, null, ' ');
@@ -69,6 +74,9 @@
 
     // Returns a random integer between min (included) and max (included)
     function getRandom(min, max) {
+      if (max < min) {
+        throw 'error';
+      }
       min = Math.ceil(min);
       max = Math.floor(max);
       return Math.floor(Math.random() * (max - min + 1)) + min;
