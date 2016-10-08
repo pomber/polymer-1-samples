@@ -1,0 +1,78 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-styles/color.html">
+
+<dom-module id="cg-cloud">
+  <template>
+
+    <style>
+      :host {
+        --cg-cloud-size-private: var(--cg-cloud-size, 100px);
+      }
+
+      .cloud {
+        width: calc(var(--cg-cloud-size-private) * 2);
+        height: var(--cg-cloud-size-private);
+        position: relative;
+      }
+
+      .cloud:after {
+        position: absolute;
+        content: '';
+        height: 17%;
+        width: 56%;
+        bottom: -3%;
+        left: 16%;
+        background-color: white;
+      }
+
+      .cloud > * {
+        position: absolute;
+        border-radius: 50%;
+        background-color: white;
+      }
+
+      .cloud-1 {
+        top: 37%;
+        left: 0;
+        width: 33%;
+        height: 66%;
+      }
+
+      .cloud-2 {
+        top: 0px;
+        left: 20%;
+        width: 50%;
+        height: 100%;
+      }
+
+      .cloud-3 {
+        top: 23%;
+        left: 50%;
+        width: 40%;
+        height: 80%;
+      }
+
+      .left-part {
+        position: absolute;
+        border-radius: 50%;
+        background-color: white;
+        border-radius: 50% 50% 0 50%;
+      }
+    </style>
+
+    <div class="cloud">
+      <div class="cloud-1"></div>
+      <div class="cloud-2"></div>
+      <div class="cloud-3"></div>
+    </div>
+
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'cg-cloud',
+
+    });
+  </script>
+</dom-module>
