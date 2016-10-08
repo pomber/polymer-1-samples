@@ -47,6 +47,7 @@
 
         for (var i = 1; i < parts; i++) {
           var xp = coords[i-1].x;
+          var yp = coords[i-1].y;
           var dp = coords[i-1].d;
           var d = coords[i].d;
           var r = d / 2;
@@ -54,10 +55,12 @@
 
           if (i==1) {
             coords[i].x = getRandom(xp + rp, xp + dp);
+            coords[i].y = getRandom(yp - r, d);
           } else if (i == parts - 1) {
             coords[i].x = getRandom(xp + dp - r, xp + dp);  
           } else {
             coords[i].x = getRandom(xp, xp + dp);
+            coords[i].y = getRandom(yp - r, d);
           }
         }
 

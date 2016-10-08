@@ -19,7 +19,12 @@
 
       .part {
         position: absolute;
-        background-color: white;  
+        background-color: white;
+      }
+
+      .xray .part {
+        border: dashed 1px orangered;
+        opacity: 0.5;
       }
 
       .left.part {
@@ -36,7 +41,7 @@
       }
     </style>
 
-    <div class="container">
+    <div class="container xray">
       <template is="dom-repeat" items="[[coords]]">
         <div 
           class$="part [[_getClass(index)]]" 
