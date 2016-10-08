@@ -22,15 +22,16 @@
       }
 
       .left.part {
-        border-radius: 50% 50% 0 50%;
+        border-bottom-right-radius: 0 !important;
       }
 
       .center.part {
-        border-radius: 50% / 50px 50px 0 0;
+        border-bottom-right-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
       }
 
       .right.part {            
-        border-radius: 50% 50% 50% 0;
+        border-bottom-left-radius: 0 !important;
       }
     </style>
 
@@ -56,6 +57,7 @@
             return [
               {x: 0, y: 37, d: 63},
               {x: 20, y: 0, d: 100},
+              {x: 60, y: 10, d: 40},
               {x: 60, y: 20, d: 80},
             ]
           },
@@ -73,6 +75,7 @@
         var left = item.x * 2;
         var width = item.d;
         var height = 100 - top;
+        var radius = item.d / 2;
 
         var style = "";
 
@@ -80,6 +83,8 @@
         style += "left:" + left + "px;";
         style += "width: " + width + "px;";
         style += "height: " + height + "px;";
+        style += "border-radius: 50% / " + radius + "px;" 
+        
 
         return style;
       }
