@@ -16,19 +16,43 @@
       properties: {
         coords: {
           type: Array,
-          value: this.generateCoords,
+          value: function() {
+            return this.generateCoords();
+          },
         }
       },
 
       generateCoords: function() {
-        return [
-            {x: 0, y: 37, d: 63},
-            {x: 20, y: 0, d: 100},
-            {x: 60, y: 10, d: 40},
-            {x: 60, y: 20, d: 80},
-        ];
+        var parts = 4;
+        var xs = [];   
+
+        for (var i = 0; i < parts; i++) {          
+          xs.push(getRandom(0, 100));
+        }
+        
+        xs.sort(function (a, b) {  return a - b;  });
+
+        return xs.map(function (x) {
+          return {
+            x: x,
+            y: getRandom(0,100),
+            d: getRandom(0,100)
+          }
+        });
+
+        // return [
+        //     {x: 0, y: 37, d: 63},
+        //     {x: 20, y: 0, d: 100},
+        //     {x: 60, y: 10, d: 40},
+        //     {x: 60, y: 20, d: 80},
+        // ];
       }
 
     });
+
+    // Returns a random number between min (inclusive) and max (exclusive)
+    function getRandom(min, max) {
+        return Math.random() * (max - min) + min;
+    }
   </script>
 </dom-module>
