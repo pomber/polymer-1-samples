@@ -16,16 +16,18 @@
       properties: {
         coords: {
           type: Array,
-          value: function () {
-            return [
-              {x: 0, y: 37, d: 63},
-              {x: 20, y: 0, d: 100},
-              {x: 60, y: 10, d: 40},
-              {x: 60, y: 20, d: 80},
-            ]
-          },
+          value: this.generateCoords,
         }
       },
+
+      generateCoords: function() {
+        return [
+            {x: 0, y: 37, d: 63},
+            {x: 20, y: 0, d: 100},
+            {x: 60, y: 10, d: 40},
+            {x: 60, y: 20, d: 80},
+        ];
+      }
 
     });
   </script>
