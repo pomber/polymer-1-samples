@@ -60,9 +60,9 @@
             c.m = Math.sqrt(sq(c.r)-sq(c.x+c.r-p.x-p.d));          
             c.ymax = Math.min(p.y+p.r+c.m-c.r, 100-c.d);
             c.y = getRandom(c.ymin, c.ymax);
-            
+
             coords.push(c);
-            width += c.d;
+            width = c.x + c.d;
           } catch (e) {
             attempts--;            
           }           
