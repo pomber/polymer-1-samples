@@ -83,7 +83,7 @@
             c.d = getRandom(minHeightSpace, maxWidthSpace);
             c.r = c.d / 2;
             c.y = 100 - c.d;
-            c.xmin = p.x + p.r;
+            c.xmin = p.x + p.d - p.r;
             c.xmax = Math.min(wmax - c.d, p.x + p.d)
             c.x = getRandom(c.xmin, c.xmax);
             a = false;
