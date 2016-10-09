@@ -31,7 +31,7 @@
       generateCoords: function() {
         var coords = [];
 
-        var d = getRandom(15, 85);
+        var d = getRandom(25, 85);
         coords.push({
           x: 0,
           d: d,
@@ -40,9 +40,10 @@
         });
 
         var attempts = 10;
+        var wmax = 200;
         var width = 0;
 
-        while (attempts && width < 200) {
+        while (attempts && width < wmax) {
           var i = coords.length - 1;
           var p = coords[i];
           var c = {};
@@ -53,7 +54,7 @@
             c.xd = c.x - p.x;
             c.dmin = p.x + p.d - c.x;
             c.dmax = p.y;
-            c.d = getRandom(c.dmin, c.dmax);
+            c.d = getBigRandom(c.dmin, c.dmax);
             c.r = c.d / 2;
             c.s = Math.sqrt(sq(p.r)-sq(c.xd-p.r));
             c.ymin = Math.max(p.y + p.r - c.s - c.r, 0);
@@ -67,6 +68,27 @@
             attempts--;            
           }           
         }
+
+        var a = true;
+        while (a && coords.length > 1) {
+          var li = coords.length - 1;
+          var c = coords[li];
+          var p = coords[li-1];
+
+          var minHeightSpace = 100 - (p.y + p.r);
+          var maxWidthSpace = wmax - p.x - p.r;
+          if (minHeightSpace > maxWidthSpace) {
+            coords.pop();
+          } else {
+            c.d = getRandom(minHeightSpace, maxWidthSpace);
+            c.r = c.d / 2;
+            c.y = 100 - c.d;
+            c.xmin = p.x + p.r;
+            c.xmax = Math.min(wmax - c.d, p.x + p.d)
+            c.x = getRandom(c.xmin, c.xmax);
+            a = false;
+          }
+        } 
 
         this.code = JSON.stringify(coords, null, ' ');
 
@@ -83,6 +105,12 @@
       min = Math.ceil(min);
       max = Math.floor(max);
       return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    
+    function getBigRandom(min, max) {
+      var a = getRandom(min, max);
+      var b = getRandom(min, max);
+      return Math.max(a, b);
     }
 
     function sq(x) {
