@@ -5,7 +5,7 @@
   <template>
 
     <cg-cloud coords="[[coords]]"></cg-cloud>
-    <pre>[[code]]</pre>
+    <!--<pre>[[code]]</pre>-->
 
   </template>
 
@@ -59,7 +59,7 @@
             c.s = Math.sqrt(sq(p.r)-sq(c.xd-p.r));
             c.ymin = Math.max(p.y + p.r - c.s - c.r, 0);
             c.m = Math.sqrt(sq(c.r)-sq(c.x+c.r-p.x-p.d));          
-            c.ymax = Math.min(p.y+p.r+c.m-c.r, 100-c.d);
+            c.ymax = Math.min(p.y+p.r+c.m-c.r-1, 100-c.d);
             c.y = getRandom(c.ymin, c.ymax);
 
             coords.push(c);
@@ -83,7 +83,7 @@
             c.d = getRandom(minHeightSpace, maxWidthSpace);
             c.r = c.d / 2;
             c.y = 100 - c.d;
-            c.xmin = p.x + p.d - p.r;
+            c.xmin = p.x + p.r;
             c.xmax = Math.min(wmax - c.d, p.x + p.d)
             c.x = getRandom(c.xmin, c.xmax);
             a = false;

@@ -14,12 +14,15 @@
         height: var(--cg-cloud-size-private);
         position: relative;
         margin: 20px;
-        border: solid 1px;
       }
 
       .part {
         position: absolute;
         background-color: white;
+      }
+
+      .xray .container {
+        border: solid 1px;
       }
 
       .xray .part {
@@ -41,7 +44,7 @@
       }
     </style>
 
-    <div class="container xray">
+    <div class="container">
       <template is="dom-repeat" items="[[coords]]">
         <div 
           class$="part [[_getClass(index)]]" 
