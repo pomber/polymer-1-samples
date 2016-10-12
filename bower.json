@@ -9,6 +9,7 @@
     "neon-elements": "PolymerElements/neon-elements#^1.0.0",
     "paper-fab-speed-dial": "paper-speed-dial#^0.5.0",
     "app-layout": "PolymerElements/app-layout#^0.10.4",
-    "app-storage": "PolymerElements/app-storage#^0.9.6"
+    "app-storage": "PolymerElements/app-storage#^0.9.6",
+    "stellar-sdk": "^0.6.0"
   }
 }
