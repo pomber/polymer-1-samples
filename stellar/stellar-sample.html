@@ -1,8 +1,18 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<script src="../bower_components/stellar-sdk/stellar-sdk.js"></script>
+
 
 <dom-module id="stellar-sample">
   <template>
-    <h2>Hello [[prop1]]</h2>
+    <pre>
+      [[seed]] - [[accountId]]
+    </pre>
+
+    <template is="dom-repeat" items="[[balances]]">
+        <p>Asset type: [[item.asset_type]]</p>
+        <p>Balance: [[item.balance]]</p>
+    </template>
+    
   </template>
 
   <script>
@@ -11,11 +21,31 @@
       is: 'stellar-sample',
 
       properties: {
-        prop1: {
-          type: String,
-          value: 'Stellar',
+        accountId: {
+          value: 'GDKQISWTVZPIDDQ5MP7H5GBMD3EQGMPWZTZZGQENI3UKQG565R4RNGJI'
         },
+        seed: {
+          value: 'SDMN4NMJYP37ROQPHAZU74ZRZ62BQQCYRSSOIKSJNYFYYGKFQIHLKJFP'
+        },        
       },
+
+      ready: function () {
+        // var pair = StellarSdk.Keypair.random();
+        // this.seed = pair.seed();
+        // this.accountId = pair.accountId();
+        // GET https://horizon-testnet.stellar.org/friendbot?addr=GDKQISWTVZPIDDQ5MP7H5GBMD3EQGMPWZTZZGQENI3UKQG565R4RNGJI
+
+        var server = new StellarSdk.Server('https://horizon-testnet.stellar.org');
+        var self = this;
+        server.loadAccount(self.accountId).then(function(account) {
+          self.account = account;
+          self.balances = account.balances;
+          console.log('Balaces for account: ' + self.accountId);
+          account.balances.forEach(function(balance) {
+            console.log('Type:', balance.asset_type, ', Balance:', balance.balance);
+          });
+        });
+      }
 
     });
   </script>
