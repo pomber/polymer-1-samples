@@ -1,4 +1,7 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
 <script src="../bower_components/stellar-sdk/stellar-sdk.js"></script>
 
 
@@ -7,6 +10,17 @@
     <pre>
       [[seed]] - [[accountId]]
     </pre>
+
+    <paper-input value="{{seed}}" label="Seed"></paper-input>
+
+    <button on-tap="getMoney">Free money</button>
+
+    <iron-ajax
+      id="friendbot"
+      url="https://horizon-testnet.stellar.org/friendbot"
+      handle-as="json"
+      on-response="handleResponse"
+      debounce-duration="300"></iron-ajax>
 
     <template is="dom-repeat" items="[[balances]]">
         <p>Asset type: [[item.asset_type]]</p>
@@ -27,6 +41,14 @@
         seed: {
           value: 'SDMN4NMJYP37ROQPHAZU74ZRZ62BQQCYRSSOIKSJNYFYYGKFQIHLKJFP'
         },        
+      },
+
+      getMoney: function() {
+        var firendbot = this.$.friendbot;
+        firendbot.params = {
+          addr: this.accountId,
+        };
+        friendbot.generateRequest();
       },
 
       ready: function () {
