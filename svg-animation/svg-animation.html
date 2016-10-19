@@ -73,7 +73,11 @@
       handleTrack: function(e) {
         var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
         var d = e.detail;
-        console.log(e);
+        var dx = 100 * (d.ddx || 0) / w;
+        var dy = 100 * (d.ddy || 0) / w;
+        this.rectX += dx;
+        this.rectY += dy;
+
         switch(e.detail.state) {
           case 'start':
             this.message = 'Tracking started!';
@@ -86,8 +90,6 @@
             this.message = 'Tracking ended!';
             break;
         }
-
-        console.log(this.message);
       }
 
     });
