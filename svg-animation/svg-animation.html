@@ -26,7 +26,7 @@
     </style>
 
     <svg viewBox="0 -1 100 1" preserveAspectRatio="xMidYMax">
-        <rect id="rect" x="10" y="-20" height="10" width="10"/>
+        <rect id="rect" x="10" y="-20" height="10" width="10" on-track="handleTrack"/>
         <path id="path" d="M 20 -50 L 40 -100 L 60 -120 L 80 -30" stroke="yellow"/>
     </svg>
 
@@ -63,6 +63,23 @@
           this.playAnimation('entry');
         });        
       },
+
+      handleTrack: function(e) {
+        switch(e.detail.state) {
+          case 'start':
+            this.message = 'Tracking started!';
+            break;
+          case 'track':
+            this.message = 'Tracking in progress... ' +
+              e.detail.x + ', ' + e.detail.y;
+            break;
+          case 'end':
+            this.message = 'Tracking ended!';
+            break;
+        }
+
+        console.log(this.message);
+      }
 
     });
   </script>
