@@ -26,7 +26,7 @@
     </style>
 
     <svg viewBox="0 -1 100 1" preserveAspectRatio="xMidYMax">
-        <rect id="rect" x="10" y="-20" height="10" width="10" on-track="handleTrack"/>
+        <rect id="rect" x$="[[rectX]]" y$="[[rectY]]" height="10" width="10" on-track="handleTrack"/>
         <path id="path" d="M 20 -50 L 40 -100 L 60 -120 L 80 -30" stroke="yellow"/>
     </svg>
 
@@ -42,6 +42,12 @@
       ],
 
       properties: {
+        rectX: {
+          value: 10,
+        },
+        rectY: {
+          value: -20,
+        },
         animationConfig: {
           value: function() {
             return {
@@ -65,6 +71,9 @@
       },
 
       handleTrack: function(e) {
+        var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+        var d = e.detail;
+        console.log(e);
         switch(e.detail.state) {
           case 'start':
             this.message = 'Tracking started!';
