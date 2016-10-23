@@ -1,0 +1,22 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="ows-app">
+  <template>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'ows-app',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'OWS',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
