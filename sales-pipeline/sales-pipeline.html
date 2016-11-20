@@ -1,19 +1,59 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-styles/paper-styles.html">
 
 <dom-module id="sales-pipeline">
   <template>
-    <style>
+    <style include="iron-flex iron-flex-alignment">
       :host {
         display: block;
       }
+
+      .stage {
+        padding: 10px;
+        margin: 3px;
+        min-width: 100px;
+        text-align: center;
+      }
+
+      .stage:nth-child(1) {
+        background: red;
+        width: 200px;
+      }
+
+      .stage:nth-child(2) {
+        background: blue;
+        width: 180px;
+      }
+
+      .stage:nth-child(3) {
+        background: green;
+        width: 160px;
+      }
+
+      .stage:nth-child(4) {
+        background: cyan;
+        width: 140px;
+      }
+
+      .stage:nth-child(5) {
+        background: mediumvioletred;
+        width: 120px;
+      }
+
+      .stage:nth-child(6) {
+        background: rosybrown;
+        width: 100px;
+      }
+
     </style>
     
-    <div>
-      <span>Market</span>
-      <span>Targets</span>
-      <span>Leads</span>
-      <span>Qualified</span>
-      <span>Opportunities</span>
+    <div class="pipeline layout vertical center center-justified">
+      <span class="stage">Market</span>
+      <span class="stage">Targets</span>
+      <span class="stage">Leads</span>
+      <span class="stage">Qualified</span>
+      <span class="stage">Opportunities</span>
+      <span class="stage">Clients</span>
     </div>
     
   </template>
