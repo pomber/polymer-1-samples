@@ -1,6 +1,7 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/paper-styles/paper-styles.html">
 <link rel="import" href="../bower_components/paper-styles/color.html">
+<link rel="import" href="../bower_components/paper-styles/typography.html">
 
 <dom-module id="sales-pipeline">
   <template>
@@ -14,6 +15,8 @@
         margin: 3px;
         min-width: 100px;
         text-align: center;
+        color: white;
+        @apply(--paper-font-common-base);
       }
 
       .stage:nth-child(1) {
@@ -32,12 +35,12 @@
       }
 
       .stage:nth-child(4) {
-        background: var(--paper-yellow-500);
+        background: var(--paper-deep-orange-500);
         width: 140px;
       }
 
       .stage:nth-child(5) {
-        background: var(--paper-deep-orange-500);
+        background: var(--paper-orange-500);
         width: 120px;
       }
 
