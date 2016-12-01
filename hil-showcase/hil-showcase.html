@@ -1,8 +1,30 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/app-layout/app-header-layout/app-header-layout.html">
+<link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
+<link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
 
 <dom-module id="hil-showcase">
   <template>
-    <h2>Hello [[prop1]]</h2>
+
+    <style>
+      
+      app-header {
+        color: #fff;
+        background-color: #333;
+      }
+
+    </style>
+
+    <app-header-layout fullbleed>
+      <app-header fixed condenses>
+        <app-toolbar>
+          <div main-title>App name</div>
+        </app-toolbar>
+      </app-header>
+      <div>
+        main content
+      </div>
+    </app-header-layout>
   </template>
 
   <script>
