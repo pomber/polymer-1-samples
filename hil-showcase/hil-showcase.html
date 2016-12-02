@@ -2,15 +2,37 @@
 <link rel="import" href="../bower_components/app-layout/app-header-layout/app-header-layout.html">
 <link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
 <link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
+<link rel="import" href="../bower_components/app-layout/app-grid/app-grid-style.html">
 
 <dom-module id="hil-showcase">
   <template>
 
-    <style>
+    <style include="app-grid-style">
+
+      :host {
+        --app-grid-columns: 3;
+        --app-grid-item-height: 100px;
+        --app-grid-gutter: 5px;
+      }
       
       app-header {
         color: #fff;
         background-color: #333;
+      }
+
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+
+      .item {
+        background-color: white;
+      }
+
+      @media (max-width: 640px) {
+        :host {
+          --app-grid-columns: 1;
+        }
       }
 
     </style>
@@ -23,6 +45,14 @@
       </app-header>
       <div>
         main content
+        <ul class="app-grid">
+          <li class="item">1</li>
+          <li class="item">2</li>
+          <li class="item">3</li>
+          <li class="item">4</li>
+          <li class="item">5</li>
+          <li class="item">6</li>
+        </ul>
       </div>
     </app-header-layout>
   </template>
