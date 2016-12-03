@@ -3,6 +3,7 @@
 <link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
 <link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
 <link rel="import" href="../bower_components/app-layout/app-grid/app-grid-style.html">
+<link rel="import" href="../bower_components/paper-card/paper-card.html">
 
 <dom-module id="hil-showcase">
   <template>
@@ -11,8 +12,12 @@
 
       :host {
         --app-grid-columns: 3;
-        --app-grid-item-height: 100px;
+        --app-grid-item-height: 300px;
         --app-grid-gutter: 5px;
+        
+        --paper-card-header-image: {
+          height: 200px;          
+        };
       }
       
       app-header {
@@ -23,10 +28,6 @@
       ul {
         padding: 0;
         list-style: none;
-      }
-
-      .item {
-        background-color: white;
       }
 
       @media (max-width: 640px) {
@@ -44,14 +45,13 @@
         </app-toolbar>
       </app-header>
       <div>
-        main content
-        <ul class="app-grid">
-          <li class="item">1</li>
-          <li class="item">2</li>
-          <li class="item">3</li>
-          <li class="item">4</li>
-          <li class="item">5</li>
-          <li class="item">6</li>
+        <div class="app-grid">
+          <paper-card image="https://assets.materialup.com/uploads/555d1057-7aee-45e2-a660-eee4f77348fe/animated_teaser.gif">Paper Planes</paper-card>
+          <paper-card image="https://assets.materialup.com/uploads/4b861b9f-53b8-4fcd-b6bb-6540b6e0ce14/animated_teaser.gif">Foo Bar</paper-card>
+          <paper-card image="https://assets.materialup.com/uploads/86f78411-0b2a-4881-9466-b087ddc05a09/animated_teaser.gif">Horizontal</paper-card>
+          <paper-card image="https://assets.materialup.com/uploads/01ecbe6b-8abe-4adf-ae06-9a742a9a205e/animated_teaser.gif">Something</paper-card>
+          <paper-card image="https://assets.materialup.com/uploads/e6a9541c-3ecd-4239-996f-11033f738faf/animated_teaser.gif">Payment</paper-card>
+          <paper-card image="https://assets.materialup.com/uploads/a882f75d-3217-4acf-b7df-2cc7bcfde8fa/animated_teaser.gif">Cover</paper-card>
         </ul>
       </div>
     </app-header-layout>
