@@ -1,0 +1,36 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-image/iron-image.html">
+
+<dom-module id="hil-list-item">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+      
+      iron-image {
+        width: 100%;
+        height: 0;
+        padding-bottom: 75%;
+        background-color: gray;
+        --iron-image-width: 100%;
+      }
+    </style>
+
+    <iron-image src="http://lorempixel.com/200/150" fade preload>        
+    </iron-image>
+    <h2>Something</h2>
+
+  </template>
+  <script>
+    Polymer({
+      is: 'hil-list-item',
+
+      properties: {
+        image: {
+          type: String
+        },        
+      }
+    });
+  </script>
+</dom-module>
