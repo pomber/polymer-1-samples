@@ -1,8 +1,43 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-image/iron-image.html">
+<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../bower_components/iron-flex-layout/classes/iron-flex-layout.html">
 
 <dom-module id="image-test">
+  <style include="iron-flex iron-flex-alignment">
+     iron-image {
+       background-color: gray;
+       --iron-image-width: 100%;
+     }
+
+     .item {
+     }
+  </style>
   <template>
-    <h2>Hello [[prop1]]</h2>
+
+  <div class="container layout horizontal">
+    <div class="item">
+      <iron-image src="http://lorempixel.com/200/150" fade preload>        
+      </iron-image>
+      <h2>Something</h2>
+    </div>
+    <div class="item">
+      <iron-image src="http://lorempixel.com/200/150" preload>        
+      </iron-image>
+      <h2>Something</h2>
+    </div>
+    <div class="item">
+      <iron-image src="http://lorempixel.com/200/150" fade>        
+      </iron-image>
+      <h2>Something</h2>
+    </div>
+    <div class="item">
+      <iron-image src="http://lorempixel.com/200/150" fade>        
+      </iron-image>
+      <h2>Something</h2>
+    </div>
+  </div>
+
   </template>
 
   <script>
