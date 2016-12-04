@@ -1,21 +1,24 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/iron-image/iron-image.html">
 <link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
-<link rel="import" href="../bower_components/iron-flex-layout/classes/iron-flex-layout.html">
+<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
 
 <dom-module id="image-test">
   <style include="iron-flex iron-flex-alignment">
      iron-image {
        background-color: gray;
+       width: 100%;
        --iron-image-width: 100%;
      }
 
      .item {
+       width: 40%;
+       padding: 5px;
      }
   </style>
   <template>
 
-  <div class="container layout horizontal">
+  <div class="container layout horizontal center-center">
     <div class="item">
       <iron-image src="http://lorempixel.com/200/150" fade preload>        
       </iron-image>
