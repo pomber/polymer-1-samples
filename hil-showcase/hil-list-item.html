@@ -41,8 +41,9 @@
       <div class="card-content">
         <div class="headline">[[exp.name]]</div>
         <div class="layout horizontal end-justified">
-          <paper-chip label="React Native" no-image></paper-chip>
-          <paper-chip label="Mobile" no-image></paper-chip>
+          <template is="dom-repeat" items="[[exp.tags]]">
+            <paper-chip label="[[item]]" no-image></paper-chip>
+          </template>
         </div>
       </div>
     </paper-card>
