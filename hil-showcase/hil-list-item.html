@@ -2,6 +2,7 @@
 <link rel="import" href="../bower_components/iron-image/iron-image.html">
 <link rel="import" href="../bower_components/paper-card/paper-card.html">
 <link rel="import" href="../bower_components/paper-styles/typography.html">
+<link rel="import" href="../bower_components/paper-chip/paper-chip.html">
 
 <dom-module id="hil-list-item">
   <template>
@@ -23,15 +24,20 @@
         cursor: pointer;
       }
       
-     .card-content h2 { @apply(--paper-font-headline); }
+     .headline { @apply(--paper-font-headline); }
+
+     .tags { right: 0; }
     </style>
 
     <paper-card 
       image="[[image]]" 
       fade-image preload-image animated-shadow>
       <div class="card-content">
-        <h2>Name</h2>
-        <!--<p>Description</p>-->
+        <div class="headline">Name</div>
+        <div class="tags">
+          <paper-chip label="React Native" no-image></paper-chip>
+          <paper-chip label="Mobile" no-image></paper-chip>
+        </div>
       </div>
     </paper-card>
 
