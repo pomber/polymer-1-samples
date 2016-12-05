@@ -36,10 +36,10 @@
     </style>
 
     <paper-card 
-      image="[[image]]" 
+      image="[[exp.image]]" 
       fade-image preload-image animated-shadow>
       <div class="card-content">
-        <div class="headline">Name</div>
+        <div class="headline">[[exp.name]]</div>
         <div class="layout horizontal end-justified">
           <paper-chip label="React Native" no-image></paper-chip>
           <paper-chip label="Mobile" no-image></paper-chip>
@@ -53,9 +53,9 @@
       is: 'hil-list-item',
 
       properties: {
-        image: {
-          type: String
-        },        
+        exp: {
+          type: Object
+        }   
       }
     });
   </script>
