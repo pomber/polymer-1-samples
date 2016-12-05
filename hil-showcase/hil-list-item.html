@@ -36,6 +36,7 @@
     </style>
 
     <paper-card 
+      elevation="[[elevation]]"
       image="[[exp.image]]" 
       fade-image preload-image animated-shadow>
       <div class="card-content">
@@ -57,8 +58,25 @@
       properties: {
         exp: {
           type: Object
+        },
+        elevation: {
+          type: Number,
+          value: 1,
         }   
-      }
+      }, 
+
+      listeners: {
+        'mouseover': 'onMouseover',
+        'mouseout': 'onMouseout',
+      },
+
+      onMouseover: function(e) {
+        this.elevation = 3;
+      },
+
+      onMouseout: function(e) {
+        this.elevation = 1;
+      },
     });
   </script>
 </dom-module>
