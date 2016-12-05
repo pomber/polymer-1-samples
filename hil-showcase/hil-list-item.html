@@ -1,6 +1,7 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/iron-image/iron-image.html">
 <link rel="import" href="../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../bower_components/paper-styles/typography.html">
 
 <dom-module id="hil-list-item">
   <template>
@@ -21,7 +22,8 @@
         width: 100%;
         cursor: pointer;
       }
-
+      
+     .card-content h2 { @apply(--paper-font-headline); }
     </style>
 
     <paper-card 
