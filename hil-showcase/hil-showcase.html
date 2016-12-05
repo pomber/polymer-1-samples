@@ -36,12 +36,9 @@
         
         
       <div class="layout horizontal center-center wrap">
-        <hil-list-item image="https://assets.materialup.com/uploads/555d1057-7aee-45e2-a660-eee4f77348fe/animated_teaser.gif"></hil-list-item>
-        <hil-list-item image="https://assets.materialup.com/uploads/4b861b9f-53b8-4fcd-b6bb-6540b6e0ce14/animated_teaser.gif">Foo Bar</hil-list-item>
-        <hil-list-item image="https://assets.materialup.com/uploads/86f78411-0b2a-4881-9466-b087ddc05a09/animated_teaser.gif">Horizontal</hil-list-item>
-        <hil-list-item image="https://assets.materialup.com/uploads/01ecbe6b-8abe-4adf-ae06-9a742a9a205e/animated_teaser.gif">Something</hil-list-item>
-        <hil-list-item image="https://assets.materialup.com/uploads/e6a9541c-3ecd-4239-996f-11033f738faf/animated_teaser.gif">Payment</hil-list-item>
-        <hil-list-item image="https://assets.materialup.com/uploads/a882f75d-3217-4acf-b7df-2cc7bcfde8fa/animated_teaser.gif">Cover</hil-list-item>
+        <template is="dom-repeat" items="[[exps]]">
+          <hil-list-item image="[[item.image]]"></hil-list-item>
+        </template>
       </ul>
 
     </app-header-layout>
@@ -53,11 +50,22 @@
       is: 'hil-showcase',
 
       properties: {
-        prop1: {
-          type: String,
-          value: 'World',
+        exps: {
+          type: Array,
+          value: function () {
+            return this.data;
+          },
         },
       },
+
+      data: [
+        { name: "Paper Planes", image: "https://assets.materialup.com/uploads/555d1057-7aee-45e2-a660-eee4f77348fe/animated_teaser.gif"},
+        { name: "Periodic Table", image: "https://assets.materialup.com/uploads/4b861b9f-53b8-4fcd-b6bb-6540b6e0ce14/animated_teaser.gif"},
+        { name: "Rotation", image: "https://assets.materialup.com/uploads/86f78411-0b2a-4881-9466-b087ddc05a09/animated_teaser.gif"},
+        { name: "Music", image: "https://assets.materialup.com/uploads/01ecbe6b-8abe-4adf-ae06-9a742a9a205e/animated_teaser.gif"},
+        { name: "Payment", image: "https://assets.materialup.com/uploads/e6a9541c-3ecd-4239-996f-11033f738faf/animated_teaser.gif"},
+        { name: "Sky", image: "https://assets.materialup.com/uploads/a882f75d-3217-4acf-b7df-2cc7bcfde8fa/animated_teaser.gif"},
+      ],
 
     });
   </script>
