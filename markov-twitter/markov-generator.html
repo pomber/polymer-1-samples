@@ -8,10 +8,10 @@
       }
     </style>
 
-    <div>[[count]]</div>
-    
-  </template>
-  <script>
+<div>[[count]]</div>
+
+</template>
+<script>
     Polymer({
       is: 'markov-generator',
 
@@ -24,9 +24,34 @@
         'train(seed)'
       ],
 
-      train: function(seed) {
-        console.log('train');      
-        this.count = seed.length;  
+      toArray: function (obj) {
+        var array = Object.keys(obj).map(function (key) {
+          return {
+            name: key,
+            value: obj[key]
+          };
+        });
+
+        return array;
+      },
+
+      train: function (seed) {
+        console.log('train');
+        this.count = seed.length;
+        const freqs = {};
+
+        for (var i = 0; i < seed.length; i++) {
+          var sentence = seed[i];
+          var words = sentence.split(' ');
+          for (var j = 0; j < words.length; j++) {
+            const word = words[j].toLowerCase();
+            freqs[word] = freqs[word] || 0;
+            freqs[word]++;
+          }
+        }
+
+        this.freqs = freqs;
+        console.table(this.toArray(freqs));
       }
     });
   </script>
