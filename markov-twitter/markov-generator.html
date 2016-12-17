@@ -12,47 +12,87 @@
 
 </template>
 <script>
-    Polymer({
-      is: 'markov-generator',
+  Polymer({
+    is: 'markov-generator',
 
-      properties: {
-        seed: String,
-        order: Number
-      },
+    properties: {
+      seed: String,
+      order: Number
+    },
 
-      observers: [
-        'train(seed)'
-      ],
+    observers: [
+      'train(seed)'
+    ],
 
-      toArray: function (obj) {
-        var array = Object.keys(obj).map(function (key) {
-          return {
-            name: key,
-            value: obj[key]
-          };
-        });
+    toArray: function (obj) {
+      var array = Object.keys(obj).map(function (key) {
+        return {
+          name: key,
+          value: obj[key]
+        };
+      });
 
-        return array;
-      },
+      return array;
+    },
 
-      train: function (seed) {
-        console.log('train');
-        this.count = seed.length;
-        const freqs = {};
+    train: function (seed) {
+      console.log('train');
+      this.count = seed.length;
+      const freqs = {};
+      const chain = {};
 
-        for (var i = 0; i < seed.length; i++) {
-          var sentence = seed[i];
-          var words = sentence.split(' ');
-          for (var j = 0; j < words.length; j++) {
-            const word = words[j].toLowerCase();
-            freqs[word] = freqs[word] || 0;
-            freqs[word]++;
-          }
+      for (var i = 0; i < seed.length; i++) {
+        var sentence = seed[i];
+        var words = sentence.split(' ');
+        for (var j = 0; j <= words.length; j++) {
+          const prev = j ? words[j - 1].toLowerCase() : '^';
+          const word = j < words.length ? words[j].toLowerCase() : '$';
+
+          freqs[word] = freqs[word] || 0;
+          freqs[word]++;
+
+          chain[prev] = chain[prev] || {};
+          chain[prev][word] = chain[prev][word] || 0;
+          chain[prev][word]++;
         }
-
-        this.freqs = freqs;
-        console.table(this.toArray(freqs));
       }
-    });
-  </script>
+
+      this.freqs = freqs;
+      this.chain = chain;
+      console.table(this.toArray(freqs));
+      console.log(this.generate());
+    },
+
+    generate: function () {
+      var current = '^';
+      var sentence = '';
+      while (current != '$') {
+        current = this.getNext(current);
+        sentence += current + " ";
+      }
+
+      return sentence;
+    },
+
+    getNext: function (word) {
+      var freqs = this.chain[word];
+      var keys = Object.keys(freqs);
+      var count = 0;
+      for (var i = 0; i < keys.length; i++) {
+        count += freqs[keys[i]];
+      }
+
+      var rand = Math.random() * count;
+      var k = 0;
+      for (var i = 0; i < keys.length; i++) {
+        k += freqs[keys[i]];
+        if (rand <= k) {
+          return keys[i];
+        }
+      }
+    }
+
+
+  });
+</script>
 </dom-module>
