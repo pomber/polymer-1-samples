@@ -12,7 +12,7 @@
         on-response="onTweets">
     </iron-ajax>
 
-    <markov-generator seed="[[statuses]]">
+    <markov-generator seed="[[statuses]]" order="2">
     </markov-generator>
 
     <template is="dom-repeat" items="[[statuses]]">
