@@ -1,0 +1,2514 @@
+[
+  {
+    "created_at": "Sat Dec 17 13:57:20 +0000 2016",
+    "id": 810121703288410112,
+    "id_str": "810121703288410112",
+    "text": "China steals United States Navy research drone in international waters - rips it out of water and takes it to China in unprecedented act.",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 5724,
+    "favorite_count": 14965,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Dec 17 13:20:23 +0000 2016",
+    "id": 810112407309844480,
+    "id_str": "810112407309844480",
+    "text": "Mobile, Alabama today at 3:00 P.M. Last rally of the year - \"THANK YOU ALABAMA AND THE SOUTH\" Biggest of all crowds expected, see you there!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3249,
+    "favorite_count": 13248,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Dec 17 13:07:22 +0000 2016",
+    "id": 810109131537481728,
+    "id_str": "810109131537481728",
+    "text": "\"@EazyMF_E: @realDonaldTrump Many people are now saying you will be an extremely successful president! #MakeAmericaGreatAgain\"  Thank you!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "MakeAmericaGreatAgain",
+          "indices": [
+            103,
+            125
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "EazyMF_E",
+          "name": "RoyalsBro",
+          "id": 2288735413,
+          "id_str": "2288735413",
+          "indices": [
+            1,
+            10
+          ]
+        },
+        {
+          "screen_name": "realDonaldTrump",
+          "name": "Donald J. Trump",
+          "id": 25073877,
+          "id_str": "25073877",
+          "indices": [
+            12,
+            28
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2900,
+    "favorite_count": 13040,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Dec 17 13:05:02 +0000 2016",
+    "id": 810108542921408512,
+    "id_str": "810108542921408512",
+    "text": "Last night in Orlando, Florida, was incredible - massive crowd - THANK YOU FLORIDA! Today at 3:00 P.M. I will be in Alabama for last rally!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3019,
+    "favorite_count": 13862,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Dec 17 03:52:01 +0000 2016",
+    "id": 809969373754654721,
+    "id_str": "809969373754654721",
+    "text": "Thank you Florida. My Administration will follow two simple rules: BUY AMERICAN and HIRE AMERICAN! #ICYMI- Watch:… https://t.co/3vgtzSJsFu",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "ICYMI",
+          "indices": [
+            99,
+            105
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/3vgtzSJsFu",
+          "expanded_url": "https://twitter.com/i/web/status/809969373754654721",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            115,
+            138
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": {
+      "id": "55b4f9e5c516e0b6",
+      "url": "https://api.twitter.com/1.1/geo/id/55b4f9e5c516e0b6.json",
+      "place_type": "city",
+      "name": "Orlando",
+      "full_name": "Orlando, FL",
+      "country_code": "US",
+      "country": "United States",
+      "contained_within": [],
+      "bounding_box": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.507905,
+              28.3882177
+            ],
+            [
+              -81.2276403,
+              28.3882177
+            ],
+            [
+              -81.2276403,
+              28.615139
+            ],
+            [
+              -81.507905,
+              28.615139
+            ]
+          ]
+        ]
+      },
+      "attributes": {}
+    },
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 7147,
+    "favorite_count": 26226,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Dec 16 16:54:28 +0000 2016",
+    "id": 809803893920165892,
+    "id_str": "809803893920165892",
+    "text": "#ThankYouTour2016 \n\nTonight- Orlando, Florida \nTickets: https://t.co/JwQeccp79N\n\nTomorrow- Mobile, Alabama\nTickets:… https://t.co/Cq5AwcuzT9",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "ThankYouTour2016",
+          "indices": [
+            0,
+            17
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/JwQeccp79N",
+          "expanded_url": "http://bit.ly/2gpz8goFLORIDA",
+          "display_url": "bit.ly/2gpz8goFLORIDA",
+          "indices": [
+            56,
+            79
+          ]
+        },
+        {
+          "url": "https://t.co/Cq5AwcuzT9",
+          "expanded_url": "https://twitter.com/i/web/status/809803893920165892",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": {
+      "id": "07d9c930ea888001",
+      "url": "https://api.twitter.com/1.1/geo/id/07d9c930ea888001.json",
+      "place_type": "poi",
+      "name": "Trump Tower",
+      "full_name": "Trump Tower",
+      "country_code": "US",
+      "country": "United States",
+      "contained_within": [],
+      "bounding_box": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.97383443019756,
+              40.762419969735156
+            ],
+            [
+              -73.97383443019756,
+              40.762419969735156
+            ],
+            [
+              -73.97383443019756,
+              40.762419969735156
+            ],
+            [
+              -73.97383443019756,
+              40.762419969735156
+            ]
+          ]
+        ]
+      },
+      "attributes": {}
+    },
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 6011,
+    "favorite_count": 21591,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Dec 16 16:03:09 +0000 2016",
+    "id": 809790978332786689,
+    "id_str": "809790978332786689",
+    "text": "Well, we all did it, together! I hope the \"MOVEMENT\" fans will go to D.C. on Jan 20th for the swearing in. Let's set the all time record!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 15467,
+    "favorite_count": 57615,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Dec 16 11:09:19 +0000 2016",
+    "id": 809717035353722880,
+    "id_str": "809717035353722880",
+    "text": "Are we talking about the same cyberattack where it was revealed that head of the DNC illegally gave Hillary the questions to the debate?",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 30320,
+    "favorite_count": 94691,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Dec 16 01:32:56 +0000 2016",
+    "id": 809571983428120577,
+    "id_str": "809571983428120577",
+    "text": "Thank you Pennsylvania! Together, we are going to MAKE AMERICA GREAT AGAIN! Watch here: https://t.co/7R382qWfWS… https://t.co/yB6u5FEfHq",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/7R382qWfWS",
+          "expanded_url": "https://www.facebook.com/DonaldTrump/videos/10158305240145725/",
+          "display_url": "facebook.com/DonaldTrump/vi…",
+          "indices": [
+            88,
+            111
+          ]
+        },
+        {
+          "url": "https://t.co/yB6u5FEfHq",
+          "expanded_url": "https://twitter.com/i/web/status/809571983428120577",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            113,
+            136
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": {
+      "id": "8647282dba1cee1e",
+      "url": "https://api.twitter.com/1.1/geo/id/8647282dba1cee1e.json",
+      "place_type": "city",
+      "name": "Hershey",
+      "full_name": "Hershey, PA",
+      "country_code": "US",
+      "country": "United States",
+      "contained_within": [],
+      "bounding_box": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.689419,
+              40.246151
+            ],
+            [
+              -76.601027,
+              40.246151
+            ],
+            [
+              -76.601027,
+              40.302317
+            ],
+            [
+              -76.689419,
+              40.302317
+            ]
+          ]
+        ]
+      },
+      "attributes": {}
+    },
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 8206,
+    "favorite_count": 33411,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu Dec 15 22:27:16 +0000 2016",
+    "id": 809525257371578369,
+    "id_str": "809525257371578369",
+    "text": "Join me in Mobile, Alabama on Sat. at 3pm! #ThankYouTour2016 \nTickets: https://t.co/GGgbjl8Zo6 https://t.co/opKrWO4k0C",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "ThankYouTour2016",
+          "indices": [
+            43,
+            60
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/GGgbjl8Zo6",
+          "expanded_url": "http://bit.ly/2gpwhwcALABAMA",
+          "display_url": "bit.ly/2gpwhwcALABAMA",
+          "indices": [
+            71,
+            94
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 809525202359033857,
+          "id_str": "809525202359033857",
+          "indices": [
+            95,
+            118
+          ],
+          "media_url": "http://pbs.twimg.com/media/CzwC4etWIAEeGRY.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CzwC4etWIAEeGRY.jpg",
+          "url": "https://t.co/opKrWO4k0C",
+          "display_url": "pic.twitter.com/opKrWO4k0C",
+          "expanded_url": "https://twitter.com/realDonaldTrump/status/809525257371578369/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 539,
+              "h": 408,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 539,
+              "h": 408,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 539,
+              "h": 408,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 809525202359033857,
+          "id_str": "809525202359033857",
+          "indices": [
+            95,
+            118
+          ],
+          "media_url": "http://pbs.twimg.com/media/CzwC4etWIAEeGRY.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CzwC4etWIAEeGRY.jpg",
+          "url": "https://t.co/opKrWO4k0C",
+          "display_url": "pic.twitter.com/opKrWO4k0C",
+          "expanded_url": "https://twitter.com/realDonaldTrump/status/809525257371578369/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 539,
+              "h": 408,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 539,
+              "h": 408,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 539,
+              "h": 408,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 5193,
+    "favorite_count": 18956,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu Dec 15 14:24:29 +0000 2016",
+    "id": 809403760099422208,
+    "id_str": "809403760099422208",
+    "text": "If Russia, or some other entity, was hacking, why did the White House wait so long to act? Why did they only complain after Hillary lost?",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 38606,
+    "favorite_count": 114776,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu Dec 15 13:28:54 +0000 2016",
+    "id": 809389774066814976,
+    "id_str": "809389774066814976",
+    "text": "The media tries so hard to make my move to the White House, as it pertains to my business, so complex - when actually it isn't!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 13039,
+    "favorite_count": 55950,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu Dec 15 13:09:14 +0000 2016",
+    "id": 809384826193276928,
+    "id_str": "809384826193276928",
+    "text": "Thank you to Time Magazine and Financial Times for naming me \"Person of the Year\" - a great honor!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 10077,
+    "favorite_count": 51986,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu Dec 15 13:05:55 +0000 2016",
+    "id": 809383989018497024,
+    "id_str": "809383989018497024",
+    "text": "Has anyone looked at the really poor numbers of @VanityFair Magazine. Way down, big trouble, dead! Graydon Carter, no talent, will be out!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "VanityFair",
+          "name": "VANITY FAIR",
+          "id": 15279429,
+          "id_str": "15279429",
+          "indices": [
+            48,
+            59
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 8451,
+    "favorite_count": 34170,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Dec 14 18:07:55 +0000 2016",
+    "id": 809097603010981888,
+    "id_str": "809097603010981888",
+    "text": ".@BillGates and @JimBrownNFL32 in my Trump Tower office yesterday- two great guys! https://t.co/4PjSOEU5y9",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "BillGates",
+          "name": "Bill Gates",
+          "id": 50393960,
+          "id_str": "50393960",
+          "indices": [
+            1,
+            11
+          ]
+        },
+        {
+          "screen_name": "JimBrownNFL32",
+          "name": "Jim Brown",
+          "id": 261542893,
+          "id_str": "261542893",
+          "indices": [
+            16,
+            30
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 809097191679815681,
+          "id_str": "809097191679815681",
+          "indices": [
+            83,
+            106
+          ],
+          "media_url": "http://pbs.twimg.com/media/Czp9m-rXcAEh1dC.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Czp9m-rXcAEh1dC.jpg",
+          "url": "https://t.co/4PjSOEU5y9",
+          "display_url": "pic.twitter.com/4PjSOEU5y9",
+          "expanded_url": "https://twitter.com/realDonaldTrump/status/809097603010981888/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 2048,
+              "h": 1638,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 960,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 544,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 809097191679815681,
+          "id_str": "809097191679815681",
+          "indices": [
+            83,
+            106
+          ],
+          "media_url": "http://pbs.twimg.com/media/Czp9m-rXcAEh1dC.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Czp9m-rXcAEh1dC.jpg",
+          "url": "https://t.co/4PjSOEU5y9",
+          "display_url": "pic.twitter.com/4PjSOEU5y9",
+          "expanded_url": "https://twitter.com/realDonaldTrump/status/809097603010981888/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 2048,
+              "h": 1638,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 960,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 544,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 13502,
+    "favorite_count": 54071,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Dec 14 03:48:55 +0000 2016",
+    "id": 808881429715316737,
+    "id_str": "808881429715316737",
+    "text": "Thank you Wisconsin! My Administration will be focused on three very important words: jobs, jobs, jobs! Watch:… https://t.co/iEGWZLuiFE",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/iEGWZLuiFE",
+          "expanded_url": "https://twitter.com/i/web/status/808881429715316737",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            112,
+            135
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 9354,
+    "favorite_count": 40101,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Dec 14 00:52:40 +0000 2016",
+    "id": 808837073423794176,
+    "id_str": "808837073423794176",
+    "text": "RT @DanScavino: Join #PEOTUS Trump &amp; #VPEOTUS Pence live in West Allis, Wisconsin! \n#ThankYouTour2016 #MAGA\nhttps://t.co/vU5EPIYKUc https:/…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PEOTUS",
+          "indices": [
+            21,
+            28
+          ]
+        },
+        {
+          "text": "VPEOTUS",
+          "indices": [
+            41,
+            49
+          ]
+        },
+        {
+          "text": "ThankYouTour2016",
+          "indices": [
+            88,
+            105
+          ]
+        },
+        {
+          "text": "MAGA",
+          "indices": [
+            106,
+            111
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "DanScavino",
+          "name": "Dan Scavino Jr.",
+          "id": 620571475,
+          "id_str": "620571475",
+          "indices": [
+            3,
+            14
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/vU5EPIYKUc",
+          "expanded_url": "http://bit.ly/2gJ2K4pWisconsinLive",
+          "display_url": "bit.ly/2gJ2K4pWiscons…",
+          "indices": [
+            112,
+            135
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Wed Dec 14 00:24:18 +0000 2016",
+      "id": 808829935599108096,
+      "id_str": "808829935599108096",
+      "text": "Join #PEOTUS Trump &amp; #VPEOTUS Pence live in West Allis, Wisconsin! \n#ThankYouTour2016 #MAGA\nhttps://t.co/vU5EPIYKUc https://t.co/MVvRxKWmrm",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "PEOTUS",
+            "indices": [
+              5,
+              12
+            ]
+          },
+          {
+            "text": "VPEOTUS",
+            "indices": [
+              25,
+              33
+            ]
+          },
+          {
+            "text": "ThankYouTour2016",
+            "indices": [
+              72,
+              89
+            ]
+          },
+          {
+            "text": "MAGA",
+            "indices": [
+              90,
+              95
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/vU5EPIYKUc",
+            "expanded_url": "http://bit.ly/2gJ2K4pWisconsinLive",
+            "display_url": "bit.ly/2gJ2K4pWiscons…",
+            "indices": [
+              96,
+              119
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 808829929005740033,
+            "id_str": "808829929005740033",
+            "indices": [
+              120,
+              143
+            ],
+            "media_url": "http://pbs.twimg.com/media/CzmKiPoXcAETmt5.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CzmKiPoXcAETmt5.jpg",
+            "url": "https://t.co/MVvRxKWmrm",
+            "display_url": "pic.twitter.com/MVvRxKWmrm",
+            "expanded_url": "https://twitter.com/DanScavino/status/808829935599108096/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 1200,
+                "h": 405,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1937,
+                "h": 653,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 680,
+                "h": 229,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 808829929005740033,
+            "id_str": "808829929005740033",
+            "indices": [
+              120,
+              143
+            ],
+            "media_url": "http://pbs.twimg.com/media/CzmKiPoXcAETmt5.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CzmKiPoXcAETmt5.jpg",
+            "url": "https://t.co/MVvRxKWmrm",
+            "display_url": "pic.twitter.com/MVvRxKWmrm",
+            "expanded_url": "https://twitter.com/DanScavino/status/808829935599108096/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 1200,
+                "h": 405,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1937,
+                "h": 653,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 680,
+                "h": 229,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 620571475,
+        "id_str": "620571475",
+        "name": "Dan Scavino Jr.",
+        "screen_name": "DanScavino",
+        "location": "Trump Tower, New York City",
+        "description": "June 2015 - Current: Director of Social Media & Senior Advisor to President-elect Donald J. Trump #Transition2017 • #TrumpTrain Conductor",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 247740,
+        "friends_count": 174,
+        "listed_count": 2147,
+        "created_at": "Thu Jun 28 02:45:39 +0000 2012",
+        "favourites_count": 3041,
+        "utc_offset": -18000,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 9903,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "131516",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/627165912412626944/ycCg68Qq.jpg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/627165912412626944/ycCg68Qq.jpg",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/792267609420943360/JGZ7gJrK_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/792267609420943360/JGZ7gJrK_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/620571475/1481178031",
+        "profile_link_color": "1B95E0",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": {
+        "id": "7dc5c6d3bfb10ccc",
+        "url": "https://api.twitter.com/1.1/geo/id/7dc5c6d3bfb10ccc.json",
+        "place_type": "admin",
+        "name": "Wisconsin",
+        "full_name": "Wisconsin, USA",
+        "country_code": "US",
+        "country": "United States",
+        "contained_within": [],
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -92.889433,
+                42.491921
+              ],
+              [
+                -86.24955,
+                42.491921
+              ],
+              [
+                -86.24955,
+                47.309715
+              ],
+              [
+                -92.889433,
+                47.309715
+              ]
+            ]
+          ]
+        },
+        "attributes": {}
+      },
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3432,
+      "favorite_count": 15114,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 3432,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Tue Dec 13 21:33:53 +0000 2016",
+    "id": 808787048144453632,
+    "id_str": "808787048144453632",
+    "text": "Join me this Saturday at Ladd–Peebles Stadium in Mobile, Alabama! \n#ThankYouTour2016 \n\nTickets:… https://t.co/1RFmKCMgyw",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "ThankYouTour2016",
+          "indices": [
+            67,
+            84
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/1RFmKCMgyw",
+          "expanded_url": "https://twitter.com/i/web/status/808787048144453632",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            97,
+            120
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 6093,
+    "favorite_count": 21812,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Tue Dec 13 12:44:06 +0000 2016",
+    "id": 808653723639697408,
+    "id_str": "808653723639697408",
+    "text": "The thing I like best about Rex Tillerson is that he has vast experience at dealing successfully with all types of foreign governments.",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 14302,
+    "favorite_count": 56838,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Tue Dec 13 11:57:35 +0000 2016",
+    "id": 808642018612310016,
+    "id_str": "808642018612310016",
+    "text": "Wisconsin and Pennsylvania have just certified my wins in those states. I actually picked up additional votes!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 25073877,
+      "id_str": "25073877",
+      "name": "Donald J. Trump",
+      "screen_name": "realDonaldTrump",
+      "location": "New York, NY",
+      "description": "President-elect of the United States",
+      "url": "https://t.co/mZB2hymxC9",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mZB2hymxC9",
+              "expanded_url": "http://www.DonaldJTrump.com",
+              "display_url": "DonaldJTrump.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 17398384,
+      "friends_count": 40,
+      "listed_count": 48648,
+      "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+      "favourites_count": 45,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 34148,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": true,
+      "profile_background_color": "6D5C18",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530021613/trump_scotland__43_of_70_cc.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1479776952",
+      "profile_link_color": "0D5B73",
+      "profile_sidebar_border_color": "BDDCAD",
+      "profile_sidebar_fill_color": "C5CEC0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 18223,
+    "favorite_count": 76071,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  }
+]
