@@ -1,9 +1,21 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
 
 <dom-module id="markov-twitter">
   <template>
-    <h2>Hello [[prop1]]</h2>
-  </template>
+
+    <iron-ajax
+        auto
+        handle-as="json"
+        url="tweets.json"
+        on-response="onTweets">
+    </iron-ajax>
+
+    <template is="dom-repeat" items="[[statuses]]">
+      <p>[[item]]</p>
+    </template>
+
+  </template> 
 
   <script>
     Polymer({
@@ -16,6 +28,13 @@
           value: 'World',
         },
       },
+
+      onTweets: function(e) {
+        var tweets = e.detail.response;
+        this.statuses = tweets.map(function (tweet) {
+          return tweet.text;
+        });
+      }
 
     });
   </script>
