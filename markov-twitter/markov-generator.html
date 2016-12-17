@@ -1,0 +1,32 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="markov-generator">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+
+    <div>[[count]]</div>
+    
+  </template>
+  <script>
+    Polymer({
+      is: 'markov-generator',
+
+      properties: {
+        seed: String
+      },
+
+      observers: [
+        'train(seed)'
+      ],
+
+      train: function(seed) {
+        console.log('train');      
+        this.count = seed.length;  
+      }
+    });
+  </script>
+</dom-module>

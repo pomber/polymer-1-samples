@@ -1,5 +1,6 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="markov-generator.html">
 
 <dom-module id="markov-twitter">
   <template>
@@ -10,6 +11,9 @@
         url="tweets.json"
         on-response="onTweets">
     </iron-ajax>
+
+    <markov-generator seed="[[statuses]]">
+    </markov-generator>
 
     <template is="dom-repeat" items="[[statuses]]">
       <p>[[item]]</p>
