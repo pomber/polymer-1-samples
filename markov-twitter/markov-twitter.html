@@ -5,21 +5,16 @@
 <dom-module id="markov-twitter">
   <template>
 
-    <iron-ajax
-        auto
-        handle-as="json"
-        url="tweets.json"
-        on-response="onTweets">
+    <iron-ajax auto handle-as="json" url="tweets.json" on-response="onTweets">
     </iron-ajax>
 
-    <markov-generator seed="[[statuses]]" order="2">
+    <markov-generator id="generator" seed="[[statuses]]" order="2">
     </markov-generator>
 
-    <template is="dom-repeat" items="[[statuses]]">
-      <p>[[item]]</p>
-    </template>
+    <button on-tap="generate">Generate</button>
+    <div>[[quote]]</div>
 
-  </template> 
+  </template>
 
   <script>
     Polymer({
@@ -33,12 +28,16 @@
         },
       },
 
-      onTweets: function(e) {
+      onTweets: function (e) {
         var tweets = e.detail.response;
         this.statuses = tweets.map(function (tweet) {
           return tweet.text;
         });
-      }
+      },
+
+      generate: function () {
+        this.quote = this.$.generator.generate();
+      },
 
     });
   </script>
